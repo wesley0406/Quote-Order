@@ -1,0 +1,25 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: none;
+}
+body {
+	background-color: pink;
+}
+h1{
+	margin: 40px 0;
+}
+button{
+	transition: 0.4s cubic-bezier(0, 0.17, 0, 1.02);
+}
+button:hover{
+	box-shadow: 0px 0px 8px #24d19d;
+}
+
+#quotation-output{
+	color:black;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
