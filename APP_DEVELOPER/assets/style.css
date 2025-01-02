@@ -118,11 +118,11 @@ button:hover, .search-button:hover {
 	align-items: center;
 }
 
-.results-graph{
-	animation: fadeInOut 1s ease-out;
+.results-graph {
+    animation: fade-in-out 0.5s ease-out;
 }
 
-@keyframes fadeInOut {
+@keyframes fade-in-out {
 	0% {
 		opacity: 0;
 		transform: scale(0.95) translateY(10px);
@@ -134,10 +134,10 @@ button:hover, .search-button:hover {
 }
 
 .fade-out {
-	animation: fadeOut 0.5s ease-out forwards !important;
+	animation: fade-out 0.5s ease-out forwards !important;
 }
 
-@keyframes fadeOut {
+@keyframes fade-out {
 	0% {
 		opacity: 1;
 		transform: scale(1) translateY(0);
@@ -344,31 +344,40 @@ button:hover, .search-button:hover {
 .graph-navigation {
 	display: flex;
 	justify-content: center;
-	gap: 20px;
+	gap: 40px;  /* Increased gap between arrows */
 	margin: 20px 0;
 }
 
 .nav-button {
-	padding: 10px 20px;
-	background: linear-gradient(to right, #000000, #1a1a1a);
+	padding: 15px;
+	width: 45px;
+	height: 45px;
+	background: linear-gradient(to right, #d81313, #e70606);
 	color: #ffffff;
 	border: none;
-	border-radius: 5px;
+	border-radius: 15px;
+	/* Small radius for slightly rounded corners */
 	cursor: pointer;
-	font-weight: bold;
 	transition: all 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .nav-button:hover {
 	background: linear-gradient(to right, #1a1a1a, #333333);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	animation: elastic-in 0.5s ease-in-out;
+	/* transform: rotate(90deg); */
 }
 
 .nav-button:disabled {
 	background: #666;
 	cursor: not-allowed;
-	animation: none;
+	transform: none;
+}
+
+.nav-button i {
+	font-size: 20px;
 }
 
 /* Clear Graphs Button Style */
@@ -459,4 +468,23 @@ button:hover, .search-button:hover {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	margin: 20px auto;
 	text-align: center;
+}
+
+/* Title with Navigation Container */
+.title-nav-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	padding: 0 20px;
+}
+
+.title-nav-container .quotation-title {
+	margin: 0;  /* Remove margin since it's handled by container */
+	flex-grow: 1;  /* Allow title to take up remaining space */
+	text-align: center;
+}
+
+.title-nav-container .nav-button {
+	margin: 0 20px;  /* Add space between buttons and title */
 }
