@@ -1,0 +1,3 @@
+[9952:12764:0213/115118.244:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[15724:14408:0213/115118.552:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[15724:14408:0213/115118.555:ERROR:direct_composition_support.cc(1070)] QueryInterface to IDCompositionDevice4 failed: 不支援此種介面 (0x80004002)
