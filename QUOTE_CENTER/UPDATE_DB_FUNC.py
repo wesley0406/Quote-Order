@@ -15,7 +15,7 @@ def FIND_FOLDER(root):
 	# Walk through the directory structure|
 	for dirpath, dirnames, _ in os.walk(root):
 		for dirname in dirnames:
-			if dirname == '2024':
+			if dirname in ["2024", "2025"]:
 				FOLDER_PATH.append(os.path.join(dirpath, dirname))
 	for folder in FOLDER_PATH :
 		for dirpath, _, filenames in os.walk(folder):
@@ -209,7 +209,7 @@ def QUOTATION_ANALYZE(COST_FILE_PATH):
 
 	
 	ALL_QUOTE = BASE.sort_values(by = ["詢價日"]).reset_index().drop(columns = "index")
-	ALL_QUOTE.to_excel("詢價統計表.xlsx", index = False)
+	#ALL_QUOTE.to_excel("詢價統計表.xlsx", index = False)
 	return DATA_SUM
 
 # 以成本表路徑更新資料庫
