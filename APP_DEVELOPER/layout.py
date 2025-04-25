@@ -4,6 +4,7 @@ def create_layout():
     return html.Div([
         # Header Section
         html.Div([
+            html.Div([]),
             html.H1("Quote Analyze Tool"),
             html.Div([
                 html.Button(
@@ -20,9 +21,14 @@ def create_layout():
                         ),
                         href='/blank',
                         # target='_blank',
-                        className="page-link hover-text-container"
+                        # className="page-link hover-text-container"
                     )
-                ], className="button-wrapper")
+                ]),
+                html.Button(
+                    html.I(className = "fa-solid fa-square-poll-vertical"), 
+                    id = 'cement_statistic_button', 
+                    n_clicks = 0
+                )  
             ], className="button-container")
         ], className="header-section"),
 
@@ -67,10 +73,8 @@ def create_layout():
                         )
                     ], className="input-group")
                 ], className="input-container"),
-            ], className="input-row"),
 
-            # Second row with file update
-            html.Div([
+                #new container check
                 html.Div([
                     html.Label("Update Database:", className="input-label"),
                     html.Div([
@@ -91,7 +95,8 @@ def create_layout():
                             className="search-button"
                         )
                     ], className="input-group"),
-                ], className="input-container")
+                ], className="input-container"),
+
             ], className="input-row"),
 
             html.Div(id='update-status', className="status-message-container"),

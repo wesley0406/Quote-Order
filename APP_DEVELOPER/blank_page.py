@@ -78,7 +78,7 @@ layout = html.Div([
                             'fontWeight': 'bold',
                         }
                     ),
-                    html.Div("", id="download-status"),
+                    html.Div("", id ="download-status"),
                 ], className = "label-download-container"
                 )
         ])

@@ -1,25 +1,63 @@
 import dash
-from dash import dcc, html, no_update, page_container
+from dash import dcc, html, no_update, page_container, dash_table
 from dash.dependencies import Input, Output, State
 import pandas as pd
 import sqlite3
 import TRACK_TOOL_V2 as TT 
 import plotly.express as px
-import sys, os
+import sys, os, json
 import traceback
 import dash.exceptions
 from collections import deque
 from layout import create_layout  # Import the layout
 import blank_page
-import sys
-sys.path.append(r"C:\Users\wesley\Desktop\workboard\APP_DEVELOPER\C019_LABEL_PROJECT")
+from flask import Flask, jsonify, Blueprint
+
+# import function from the file
+sys.path.append(r"C:\Users\wesley\Desktop\workboard\APP_DEVELOPER\EXTRA_FUNCTION")
 from LABEL_DOWNLOAD import ReyherAutomation
 from D092_VOLUMN_CHCECK import NN_CHECKVOLUMN
+from CARBON_TRACK_FUNC import CO2_Calculator 
+from D092_Cement_Screw_Chart import NN_SCREW_WATER_LEVEL
+
 
 
 #Please run this app fisrt which will generate a website address, then open another terminal then enter ex : "ngrok http --url=sp24437778.ngrok.io 8069 "
 
-app = dash.Dash(__name__, use_pages=True, suppress_callback_exceptions=True)
+# Create Flask app
+server = Flask(__name__)
+
+# Define carbon emission tracking  API
+api_CO2_VERIFY_blueprint = Blueprint('CO2_TRACK_CALCULATOR', __name__)
+@api_CO2_VERIFY_blueprint.route('/CARBON_TRACK', methods=['GET'])
+def CARBON_CALCULATOR() :
+    TARCK_RECORD = {}
+    REVIEW_CO2_EMISSION = pd.DataFrame(columns = ["ORDER_NUMBER", "DISTANCE", "CO2 TONS/KM"])
+
+    #Define the root directory where your files are located
+    root_directory = r"Z:\\跨部門\\共用資料夾\\F. 管理部\\05.碳盤查資訊與資料\\2025年度碳盤資料\\活動數據\\類別三\\外車司機\\2025_CARTRACK_SUMMARY\\2025_CAR_TRACK" # please redefine your own root or file 
+    #ith open(f'TRACK_LOG.txt', 'w') as log_file:  # 'w' mode clears the file
+        #log_file.write("Starting new log!\n")
+    CALCULATOR = CO2_Calculator()
+    for root, dirs, files in os.walk(root_directory):
+        n = 0 
+        for i in files :    
+            order, dis, co2 , track_dic = CALCULATOR.TRANS_ORDER_INTO_CO2(os.path.join(root_directory,i)) # 丟入欲計算的派車單進root_directory資料夾
+            TARCK_RECORD[f"{i.split('.')[0]}"] = track_dic
+            print(track_dic)
+            #print(os.path.join(root_directory, i))
+            REVIEW_CO2_EMISSION.loc[n] = [order.split("\\")[1], dis , co2]
+            n += 1
+    summary_address_for_dataframe = r"Z:\跨部門\共用資料夾\F. 管理部\05.碳盤查資訊與資料\2025年度碳盤資料\活動數據\類別三\外車司機\2025_CARTRACK_SUMMARY\SUMMARY_2025.xlsx"
+    REVIEW_CO2_EMISSION.to_excel(summary_address_for_dataframe)
+    #return jsonify({key: list(value.values()) for key, value in TARCK_RECORD.items()})
+    return jsonify(TARCK_RECORD)
+
+# Register Blueprint with Flask
+server.register_blueprint(api_CO2_VERIFY_blueprint)
+
+
+app = dash.Dash(__name__, use_pages=True, suppress_callback_exceptions=True, server = server)
 
 # Register pages
 dash.register_page('home', layout = create_layout(), path='/')
@@ -141,7 +179,7 @@ def handle_all_inputs(search_clicks, product_clicks, quote_submit, product_submi
                         {'display': 'none'}, {'display': 'none'})
 
             ORDER_ACCPET_RATE_W, ORDER_ACCPET_RATE_I, SC_CODE, ORDER_WEIGHT, result = TT.CONCAT_QUOTE_ORDER(QUOTE, ORDER)
-
+            
             # Create results div with statistics in horizontal blocks
             results_div = html.Div([
                 html.Div(f"Quotation Number: {quotation_number}",
@@ -240,7 +278,7 @@ def handle_all_inputs(search_clicks, product_clicks, quote_submit, product_submi
                         'customdata': result[['WEIGHT', 'WIRE_PRICE', 'EXCHANGE_RATE', 'PROFIT_RATE']].to_numpy()
                     },
                     {
-                        'x': result['PRODUCT_CODE'],
+                        'x': result['PRODUCT_CODE'].astype(str),
                         'y': result['ORDER_QTY'],
                         'type': 'bar',
                         'name': 'Order Quantity',
@@ -430,7 +468,6 @@ def update_database(n_clicks, file_path):
     prevent_initial_call=True
 )
 def handle_navigation(clear_clicks):
-    print('give me some res')
     if clear_clicks:
         app.graphs.clear()
         app.product_codes.clear()
@@ -459,7 +496,7 @@ def return_home(n_clicks):
 def handle_label_download(n_clicks, sc_number):
 
     if not sc_number:
-        return html.Div("Error: SC Number is missing!", className="error-message")
+        return html.Div("Error: SC Number is missing!", className="download-status error")
 
     try:
         bot = ReyherAutomation()
@@ -469,54 +506,110 @@ def handle_label_download(n_clicks, sc_number):
         if bot.login_download():
             print("[DEBUG] Login successful. Transferring files...")  # Debugging
             bot.TRANSFER_LABEL_FILE()
-            return html.Div("Labels downloaded and transferred successfully!", className="success-message")
+            return html.Div(
+                [
+                    "Labels are downloaded and transferred successfully!",
+                    html.Br(),
+                    f"Root Directory: {bot.destination}"
+                ],
+                className="download-status success"
+            )
         else:
             print("[DEBUG] Login failed.")  # Debugging
-            return html.Div("Failed to download labels. Please check your SC number.", className="error-message")
+            return html.Div("Failed to download labels. Please check your SC number.", className = "download-status error")
 
     except Exception as e:
         print(f"[DEBUG] Error in downloading: {e}")  # Debugging
-        return html.Div(f"Error: {str(e)}", className="error-message")
+        return html.Div(f"Error: {str(e)}", className = "download-status error")
 
 # D092 volumn check system
 @app.callback(
-    Output('D092_volumn_output', 'children'),  # Ensure this ID exists in your layout
+    Output('D092_volumn_output', 'children'),
     Input('D092-CBM-button', 'n_clicks'),
-    State("D092-sc-input", 'value'),
+    State('D092-sc-input', 'value'),
     prevent_initial_call=True
 )
-def verify_volume_order(n_clicks, sc_number):
+def verify_volume_order(n_clicks, sc_num):
+    print(f"SC Number received: {sc_num}")
 
-    if not sc_number:
+    if not sc_num:
         return ""
     try:
         # Initialize NN_CHECKVOLUMN
         nn_check_volume = NN_CHECKVOLUMN()
         
         # Set the order number
-        nn_check_volume.ORDER_NUM = sc_number
-        
+        nn_check_volume.ORDER_NUM = sc_num
+        nn_check_volume._initialize_data()
+
+        weight_modified_list = [1.1, 1.05, 1, 0.95, 0.9]
         # Call the method to verify volume
-        volume_summary = nn_check_volume.ORDER_WEI_SUMMERIZED()  # Ensure this method exists
-        
-        return html.Div(
-            f"Volume Summary: {volume_summary}",
-            className="download-status success"
-        )
-        
+        volume_summary = nn_check_volume.ORDER_WEI_SUMMERIZED()  # return a dataframe from the ERP system
+        summerized_volumn = volume_summary[["item_code", "carton_qty", "inner_box_qty", "pallet_qty","total_package_weight", "screw_weight"]].round(2)
+        summerized_volumn = summerized_volumn.reset_index() # add the index into the table 
+        adjusted_weight_list = [(i * nn_check_volume.TOTAL_WEIGHT).round(2) for i in weight_modified_list ]
+        weight_change_df = pd.DataFrame({
+                "Amplifier" : ["+10%", "+5%", "0%", "-5%", "-10%"],
+                "Weight(kgs)" : adjusted_weight_list
+        })
+        return html.Div([
+                    dash_table.DataTable(
+                        columns = [{"name": col, "id": col} for col in summerized_volumn],
+                        data = summerized_volumn.to_dict("records"),
+                        style_table = {'overflowX': 'auto'},
+                        style_cell = {'textAlign': 'center', 'padding': '5px'},
+                        style_header = {'backgroundColor': 'lightgrey', 'fontWeight': 'bold', 'fontSize': '15px'}
+                    ),
+                    html.Div([
+                        html.P("TOTAL WEIGHT FOR SCREW : {} kgs \n".format(summerized_volumn["screw_weight"].sum().round(2))),
+                        html.P("TOTAL WEIGHT FOR PACKACGE : {} kgs\n".format(summerized_volumn["total_package_weight"].sum().round(2))),
+                        html.P("Over All Weight For The Container : {} kgs\n".format(nn_check_volume.TOTAL_WEIGHT.round(2))),
+                        html.P("Pallets quantity for 3 layer pillar : {} \n".format(nn_check_volume.TRIPLE_PALLETS )),
+                        html.P("Pallets quantity for 2 layer pillar : {} \n".format(nn_check_volume.DOUBLE_PALLETS )),
+                        # add a spce between 2 block 
+
+                        dash_table.DataTable(
+                            columns = [{"name": col, "id": col} for col in weight_change_df],
+                            data = weight_change_df.to_dict("records"),
+                            style_table = {'overflowX': 'auto', 'margin-top': '10px', 'width': '100%', 'margin-bottom': '10px'},
+                            style_cell = {'textAlign': 'center', 'padding': '5px'},
+                            style_header = {'backgroundColor': 'lightgrey', 'fontWeight': 'bold', 'fontSize': '15px'},
+                        ),
+                        #add a spce for the result to show
+                        html.Div([
+                                html.P("Remain Pillar for 40 feet container: {:.2f}".format(
+                                    20 - nn_check_volume.TRIPLE_PALLETS / 3 - nn_check_volume.DOUBLE_PALLETS / 2
+                                ), style={"flex": "1"}),
+                                html.P("Remain Pillar for 20 feet container: {:.2f}".format(
+                                    10 - nn_check_volume.TRIPLE_PALLETS / 3 - nn_check_volume.DOUBLE_PALLETS / 2
+                                ), style={"flex": "1"})
+                            ], id="fill_blank")
+
+                    ], id = "weight_info")
+                ], className = "VERIFY_RESULT_container")
     except Exception as e:
         return html.Div(
             f"Error: {str(e)}", 
-            className="download-status error"
+            className = "verify error"
         )
 
+# D092 volumn check system cement board statistic chart
+@app.callback(
+    Output('quotation-output', 'children', allow_duplicate=True),
+    Input('cement_statistic_button', 'n_clicks'),
+    prevent_initial_call=True
+)
+def Cement_Chart(n_clicks):
+    water_level_engine = NN_SCREW_WATER_LEVEL()
+    fig = water_level_engine.DRAW_CHART()
+    return dcc.Graph(figure = fig, style = {'width': '100%', 'height': '500px'})
 
 
 
 if __name__ == "__main__":
     app.run_server(debug=True,  
                 dev_tools_hot_reload=True, 
-                host="127.0.0.1", 
-                port=8069)
+                host = "127.0.0.1", 
+                port = 8069)
 
 

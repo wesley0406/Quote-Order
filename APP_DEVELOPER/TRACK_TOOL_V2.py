@@ -169,6 +169,9 @@ def CONCAT_QUOTE_ORDER(df_quote, df_order):
     # Join SC numbers with commas and remove duplicates
     SC_CODE = ", ".join(sorted(set(SC_CODE))) if SC_CODE else None
 
+    # insure the PRODUCT NAME will be string
+    df_quote["PRODUCT_CODE"] = df_quote["PRODUCT_CODE"] + "_"
+
     return ORDER_ACCPET_RATE_W, ORDER_ACCPET_RATE_I, SC_CODE, ORDER_WEIGHT, df_quote
     #return df_quote
 
@@ -248,62 +251,34 @@ def SINGLE_ITEM_RECORD_V2(df_quote, RAW_ORDER):
     df_order = RAW_ORDER[RAW_ORDER["CLEANED_CST_PART_NO"] == product_code].copy()
     df_order["CREA_DATE"] = pd.to_datetime(df_order["CREA_DATE"]).dt.date
     
-    if df_order.empty:
-        print(f"No orders found for product code: {product_code}")
-        return df_quote
-
-    #df_order = df_order[pd.to_datetime(df_order["CREA_DATE"]).dt.date > pd.to_datetime('2024-01-01').date()]
-
-    # Process each quote row
-    # for index, item in enumerate(df_quote["PRODUCT_CODE"]):
-    #     SINGLE_ITEM_BOARD = df_order.loc[df_order["CLEANED_CST_PART_NO"] == item].copy()
-        
-    #     if SINGLE_ITEM_BOARD.shape[0] > 0:
-    #         quote_date = pd.to_datetime(df_quote.loc[index, "QUOTE_DATE"]).date()
-    #         SINGLE_ITEM_BOARD["TIME_DIFF"] = (pd.to_datetime(SINGLE_ITEM_BOARD["CREA_DATE"]) - 
-    #                                         pd.to_datetime(quote_date)).dt.days
-            
-    #         valid_orders = SINGLE_ITEM_BOARD.loc[(SINGLE_ITEM_BOARD["TIME_DIFF"] >= 0) & 
-    #                                            (SINGLE_ITEM_BOARD["TIME_DIFF"] <= 25)]
-            
-    #         if valid_orders.shape[0] > 0:
-    #             # Set STATUS to "Paired" for valid orders
-    #             df_order.loc[valid_orders.index, "STATUS"] = "Paired"
-                
-    #             # Group by date
-    #             same_date_orders = valid_orders.groupby("CREA_DATE").agg({
-    #                 "ORDER_QTY": "sum",
-    #                 "ORDER_WEIG": "sum",
-    #                 "SC_NO": lambda x: ", ".join(sorted(x.unique())),
-    #                 "PRICE": "first"
-    #             }).reset_index()
-                
-    #             earliest_date = same_date_orders["CREA_DATE"].min()
-    #             combined_order = same_date_orders.loc[same_date_orders["CREA_DATE"] == earliest_date].iloc[0]
-
-    #             # Update quote with matched order data
-    #             df_quote.at[index, "CREA_DATE"] = pd.to_datetime(combined_order["CREA_DATE"])
-    #             df_quote.at[index, "ORDER_QTY"] = combined_order["ORDER_QTY"]
-    #             df_quote.at[index, "ORDER_WEIG"] = combined_order["ORDER_WEIG"]
-    #             df_quote.at[index, "SC_CODE"] = combined_order["SC_NO"]
-    #             df_quote.at[index, "ORDER_PRICE"] = combined_order["PRICE"]
-    #             df_quote.at[index, "Paired_Status"] = "Paired"
 
     # Final processing
     df_quote["QUANTITY"] = df_quote["QUANTITY"].replace(["-", 0], 100).fillna(100)  # 
     df_quote['QUOTE_DATE'] = pd.to_datetime(df_quote['QUOTE_DATE'], format='%Y%m%d')
     df_unique = df_quote.drop_duplicates(subset='QUOTE_DATE')
+
+    # check if the order is empty
+    if df_order.empty:
+        print(f"No orders found for product code: {product_code}")
+        return df_quote.sort_values(by="QUOTE_DATE", ascending=True), df_order
+
     return df_unique.sort_values(by="QUOTE_DATE", ascending=True), df_order
 
 def test_single_item_record():
     a = FETCH_DATA()
     #a.to_excel("ALL_ORDER.xlsx")
-    b = SEARCH_THROUGH_ITEM("WSV2TR")
+    b = SEARCH_THROUGH_ITEM("089150.00406.0039.030")
     quote_data, order_data = SINGLE_ITEM_RECORD_V2(b, a)
     print("\nOrder Status:")
-    print(quote_data[["PRODUCT_CODE", "Paired_Status"]])
+    print(quote_data[["PRODUCT_CODE", "Paired_Status", "QUOTE_DATE"]])
     print(order_data[["CREA_DATE", "ORDER_QTY", "ORDER_WEIG", "SC_NO", "PRICE"]])
     return quote_data
 
-# if __name__ == "__main__":
-#     test_single_item_record()
+if __name__ == "__main__":
+    #test_single_item_record()
+    ORDER = FETCH_DATA()
+    QUOTE = SEARCH_THROUGH_RFQ(6000120044)
+    ORDER_ACCPET_RATE_W, ORDER_ACCPET_RATE_I, SC_CODE, ORDER_WEIGHT, result = CONCAT_QUOTE_ORDER(QUOTE, ORDER)
+    # result.columns = result.columns.str.strip() 
+    # print(result)
+    # print(result['PRODUCT_CODE'].dtype)
