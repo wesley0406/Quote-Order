@@ -207,9 +207,9 @@ class ReyherAutomation:
 
 
 
-if __name__ == "__main__":
-    bot = ReyherAutomation()
-    bot.ORDER_NUM = "25040019"
-    bot.login_download()
-    bot.TRANSFER_LABEL_FILE()
-    print(bot.destination)
+# if __name__ == "__main__":
+#     bot = ReyherAutomation()
+#     bot.ORDER_NUM = "25040019"
+#     bot.login_download()
+#     bot.TRANSFER_LABEL_FILE()
+#     print(bot.destination)

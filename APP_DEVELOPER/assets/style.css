@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;;
 }
 
 /* Typography */
@@ -62,7 +63,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	gap: 16px;
+	gap: 15px;
 	width: 100%;
 }
 
@@ -411,7 +412,7 @@ button:hover, .search-button:hover {
 /* Quotation Results Styles */
 
 .quotation-title {
-	display: none;
+	font-size: 20px
 }
 
 .quote-container{
@@ -657,7 +658,7 @@ button:hover, .search-button:hover {
 /* Larger screens */
 @media screen and (min-width: 1200px) {
     .input-section {
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
     }
 
@@ -747,10 +748,6 @@ button:hover, .search-button:hover {
 	margin-bottom: 10px;
 }
 
-/*.button-container div a{
-	display:block;
-	height: 100%;
-}*/
 
 .page-link {
 	position: absolute;
@@ -765,7 +762,6 @@ button:hover, .search-button:hover {
 
 /* Add these new styles */
 .nav-section {
-    padding: 20px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(248, 245, 248, 0.5);
 }
@@ -869,7 +865,7 @@ button:hover, .search-button:hover {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .label-download-container #D092_volumn_output {
@@ -914,9 +910,6 @@ button:hover, .search-button:hover {
 }
 
 #cement_statistic_button {
-/*	position: absolute;*/
-/*	right: 20px;*/
-/*	top: 150px;*/
 	width : 100px;
 	background: linear-gradient(to right, #d81313, #e70606);
 	color: white;
@@ -925,5 +918,18 @@ button:hover, .search-button:hover {
 	padding: 10px 20px;
 	cursor: pointer;
 	font-size: 20px;
-/*	display: block;*/
+}
+.sheet-container {
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr; /* 3 columns */
+	gap: 0px;
+    background-color: #D6D6AD;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border: 2px solid
+}
+.sheet-container * {
+	margin: 0 auto;
+}
+.SHEET_EXPORT_LOGO_PART{
 }

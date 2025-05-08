@@ -1,4 +1,5 @@
 import dash
+import dash
 from dash import dcc, html, no_update, page_container, dash_table
 from dash.dependencies import Input, Output, State
 import pandas as pd
@@ -607,9 +608,9 @@ def Cement_Chart(n_clicks):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True,  
-                dev_tools_hot_reload=True, 
-                host = "127.0.0.1", 
-                port = 8069)
+    app.run(debug=True,  
+            dev_tools_hot_reload=True, 
+            host = "127.0.0.1", 
+            port = 8069)
 
 

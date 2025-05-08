@@ -1,4 +1,6 @@
-[1832:16848:0424/141953.163:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
-[8072:6260:0424/141953.413:ERROR:direct_composition_support.cc(1126)] QueryInterface to IDCompositionDevice4 failed: 不支援此種介面 (0x80004002)
-[17876:17800:0424/142210.838:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
-[17876:17800:0424/142210.838:WARNING:sqlite_persistent_store_backend_base.cc(176)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[7696:9696:0502/083905.210:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
+[5044:13896:0502/083905.786:WARNING:spdy_session.cc(2980)] Received HEADERS for invalid stream 1
+[15628:9016:0502/083906.303:ERROR:direct_composition_support.cc(1126)] QueryInterface to IDCompositionDevice4 failed: 不支援此種介面 (0x80004002)
+[7696:9696:0502/083916.750:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:5159
+[7696:9696:0502/083916.750:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:45159
+[7696:9696:0502/083917.239:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:2747170

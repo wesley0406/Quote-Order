@@ -1,4 +1,5 @@
 from dash import html, dcc
+import dash_bootstrap_components as dbc
 
 layout = html.Div([
     # Navigation section
@@ -6,9 +7,9 @@ layout = html.Div([
         dcc.Link(
             html.Button(
                 html.I(className="fa-solid fa-house"), 
-                id='home-button',
-                className="nav-button",
-                n_clicks=0
+                id = 'home-button',
+                className = "nav-button",
+                n_clicks = 0
             ),
             href='/',
         )
@@ -84,7 +85,7 @@ layout = html.Div([
         ])
     ], style={
         'padding': '5px',
-        'height' : '320px',
+        'height' : '270px',
         'backgroundColor': '#f5f5f5'
         }
     ),
@@ -149,6 +150,134 @@ layout = html.Div([
             ),
             html.Div("", id = "D092_volumn_output")
         ], className = "label-download-container")
-    ], className = "CBM-verify-container"
-    )
+    ], className = "CBM-verify-container"),
+    html.Div([
+        html.Div([
+            html.Img(
+                src='/assets/ERP_logo.png',  # Make sure to add this image to your assets folder
+                style={
+                    'height': '80px',
+                    'verticalAlign': 'middle'
+                }
+            ),
+            html.H2("COMPLETE ORDER ", 
+                style={
+                    'backgroundColor': '#EAC100',
+                    'WebkitBackgroundClip': 'text',
+                    'WebkitTextFillColor': 'transparent',# Makes the text transparent to show gradient
+                    'marginLeft': '30px',
+                    'marginTop': '15px',
+                    'fontSize': '45px',
+                    'fontWeight': 'bold',
+                    'display': 'inline-block'
+                }),
+        ],className = "LABEL_DOWNLOAD_LOGO_PART"),
+        html.Div([
+            html.Label("Enter File Addresss:", 
+                style={
+                    'color': '#333',
+                    'fontSize': '30px',
+                    'fontWeight': 'bold',
+                }
+            ),
+            html.Div(
+                dbc.Modal([
+                    dbc.ModalHeader(dbc.ModalTitle("Enter Exchange Rate")),
+                    dbc.ModalBody([
+                        dbc.Row([
+                            dbc.Col(
+                                html.Label("Exchange Rate:", className="mb-0"),
+                                width=4,
+                                className="d-flex align-items-center"
+                            ),
+                            dbc.Col(
+                                dcc.Input(
+                                    id="exchange_rate_input",
+                                    type="number",
+                                    value=33,
+                                    step=0.25,
+                                    className="form-control"
+                                ),
+                                width=8,
+                                className="d-flex align-items-center"
+                            ),
+                        ], align="center")
+                    ]),
+                    dbc.ModalFooter([
+                        dbc.Button("Submit", id="submit_exchange_rate", className="ms-auto", n_clicks=0),
+                        dbc.Button("Close", id="close_modal", className="ms-auto", n_clicks=0),
+                    ]),
+                ], id="exchange_rate_modal", is_open=False)
+            ),
+            # Output div
+            dcc.Input(
+                id = 'address_column_export_value',
+                    type = 'text',
+                    placeholder = r"ex : Z:\業務部\業務一課\H-訂單\1. 外銷\D09000 BMD\1. 訂單\2025\20250327",
+                    style = {
+                        'width': '600px',
+                        'padding': '10px',
+                        'border': '1px solid #ccc',
+                        'borderRadius': '4px',
+                        'fontSize': '16px',
+                        'marginBottom': '10px',
+                        'borderWidth': '5px',
+                        'borderStyle': 'dashed solid',
+                        'borderColor': 'black'
+                    }
+            ),html.Button(
+                "輸出訂單成本表",
+                id ='order_list_export_button',
+                style = {
+                    'color': 'white',
+                    'padding': '10px 10px',
+                    'border': 'none',
+                    'borderRadius': '4px',
+                    'cursor': 'pointer',
+                    'fontSize': '15px',
+                    'fontWeight': 'bold',
+                    'width': '150px'
+                }
+            )
+            ,
+            html.Button(
+                "輸出明細",
+                id ='PM_DEL_export_button',
+                style = {
+                    'color': 'white',
+                    'padding': '10px 10px',
+                    'border': 'none',
+                    'borderRadius': '4px',
+                    'cursor': 'pointer',
+                    'fontSize': '15px',
+                    'fontWeight': 'bold',
+                    'width': '150px'
+                }
+            ),
+            html.Button(
+                "輸出麥頭",
+                id ='Mark_export_button',
+                style = {
+                    'color': 'white',
+                    'padding': '10px 10px',
+                    'border': 'none',
+                    'borderRadius': '4px',
+                    'cursor': 'pointer',
+                    'fontSize': '15px',
+                    'fontWeight': 'bold',
+                    'width': '150px'
+                }
+            ),
+            html.Div("", id = "address_column_export_output"),
+            
+            # Error Message Modal
+            dbc.Modal([
+                dbc.ModalHeader(dbc.ModalTitle("Error")),
+                dbc.ModalBody(id="error_modal_body"),
+                dbc.ModalFooter(
+                    dbc.Button("Close", id="close_error_modal", className="ms-auto", n_clicks=0)
+                ),
+            ], id="error_modal", is_open=False)
+        ], className = "sheet-container")
+    ], className = "sheet_output_continaer", style = {'backgroundcolor': '#D6D6AD'})
 ])
