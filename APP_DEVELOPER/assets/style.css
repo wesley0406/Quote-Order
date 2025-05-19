@@ -118,7 +118,7 @@ button:hover, .search-button:hover {
 /* Results Section */
 .results-section {
 	background: rgba(255, 255, 255, 0.9);
-	padding: 20px;
+	padding: 10px;
 	border-radius: 10px;
 /*	margin-top: 20px;*/
 }
@@ -418,7 +418,7 @@ button:hover, .search-button:hover {
 .quote-container{
 	display: flex;
 	height: 100px;
-	gap: 64px;
+	gap: 20px;
 }
 
 .stats-container {
@@ -430,7 +430,7 @@ button:hover, .search-button:hover {
 
 .stat-block {
 	background-color: rgba(82, 80, 80, 1);
-	padding: 16px;
+	padding: 5px;
 	border-radius: 10px;
 	min-width: 200px;
 	text-align: center;
@@ -508,9 +508,8 @@ button:hover, .search-button:hover {
 
 .price-block {
     background: linear-gradient(135deg, #1a1a1a, #333);
-    padding: 16px;
+    padding: 5px;
     border-radius: 10px;
-/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
     min-width: 200px;
     text-align: center;
     transition: all 0.3s ease;
@@ -931,5 +930,8 @@ button:hover, .search-button:hover {
 .sheet-container * {
 	margin: 0 auto;
 }
-.SHEET_EXPORT_LOGO_PART{
+#error_modal_body {
+    font-size: 23px;
+    color: red;
+    font-weight: bold;
 }

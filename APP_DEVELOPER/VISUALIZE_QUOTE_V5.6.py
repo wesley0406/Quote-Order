@@ -2,6 +2,7 @@ import dash
 from dash import dcc, html, no_update, page_container, dash_table
 from dash.dependencies import Input, Output, State
 import pandas as pd
+import plotly.graph_objects as go  # Added for Figure
 import sqlite3
 import TRACK_TOOL_V2 as TT 
 import plotly.express as px
@@ -19,7 +20,7 @@ sys.path.append(r"C:\Users\wesley\Desktop\workboard\APP_DEVELOPER\EXTRA_FUNCTION
 from LABEL_DOWNLOAD import ReyherAutomation
 from D092_VOLUMN_CHCECK import NN_CHECKVOLUMN
 from CARBON_TRACK_FUNC import CO2_Calculator 
-from D092_Cement_Screw_Chart import NN_SCREW_WATER_LEVEL
+from D092_Cement_Screw_Chart_V2 import NN_SCREW_WATER_LEVEL
 from ORDER_COST_EXPORT import ORDER_COST_EXPORT_CLS
 from PM_DEL_CHECK_EXPORT import PM_LIST_EXPORT
 from MARK_EXPORT import MARK_SHEET_EXPORT
@@ -137,7 +138,7 @@ def handle_all_inputs(search_clicks, product_clicks, quote_submit, product_submi
 
         return (
             html.Div([
-                html.Div(f"Results for Product Code: {app.product_codes[app.current_graph_index]}",
+                html.Div(f"Results for Product Code : {app.product_codes[app.current_graph_index]}",
                         className="quotation-title"),
                 html.Div(f"Graph {app.current_graph_index + 1} of {len(app.graphs)}",
                         className="graph-counter")
@@ -186,8 +187,6 @@ def handle_all_inputs(search_clicks, product_clicks, quote_submit, product_submi
             
             # Create results div with statistics in horizontal blocks
             results_div = html.Div([
-                html.Div(f"Quotation Number: {quotation_number}",
-                        className="quotation-title"),
                 html.Div([
                     # Weight Acceptance Rate Block
                     html.Div([
@@ -222,7 +221,7 @@ def handle_all_inputs(search_clicks, product_clicks, quote_submit, product_submi
                     ], className="stat-block")
                 ], className="stats-container"),
                 
-                # Add Hello World block here
+                
                 html.Div([
                     # Wire Price Block
                     html.Div([
@@ -336,82 +335,80 @@ def handle_all_inputs(search_clicks, product_clicks, quote_submit, product_submi
                             style={'color': '#ff0000', 'fontWeight': 'bold'}),
                             {}, {"display": "none"}, "results-graph",
                             {'display': 'none'}, {'display': 'none'})
-
-            # Graph for product code
-            bar_figure = {
-                'data': [
-                    {
-                        'x': result['QUOTE_DATE'],
-                        'y': result['QUANTITY'],
-                        'type': 'bar',
-                        'name': 'Quantity',
-                        'marker': {'color': 'rgba(135, 206, 250, 0.6)'},
-                        'hovertemplate': (
-                            "<b>Date:</b> %{x}<br>"
-                            "<b>Quantity:</b> %{y}M<br>"
-                            "<b>Wire Price:</b> %{customdata[0]}<br>"
-                            "<b>Profit:</b> %{customdata[1]}<br>"
-                            "<b>Exchange rate:</b> %{customdata[2]}<extra></extra>"),
-                        'customdata': result[["WIRE_PRICE", "PROFIT_RATE", "EXCHANGE_RATE"]].to_numpy()
-                    },
-                    {
-                        'x': order_info['CREA_DATE'],
-                        'y': order_info['ORDER_QTY'],
-                        'type': 'bar',
-                        'name': 'Order Quantity',
-                        'marker': {'color': 'orange'},
-                        'hovertemplate': (
-                            "<b>Order Quantity:</b> %{y}M<br>"
-                            "<b>SC : </b> %{customdata[1]}<br>"
-                            "<b>Order Price:</b> %{customdata[0]}<br>"
-                            "<b>Order Date:</b> %{customdata[2]}<br>"
-                        ),
-                        'customdata': order_info[["PRICE", "SC_NO", "CREA_DATE"]].to_numpy()
-                    },
-                    {
-                        'x': result['QUOTE_DATE'],
-                        'y': result['TOTAL_PRICE_M'],
-                        'type': 'scatter',
-                        'mode': 'lines+markers',
-                        'name': 'Quote Price',
-                        'yaxis': 'y2',  # Use secondary y-axis
-                        'line': {
-                            'color': '#d81313',
-                            'width': 2,
-                            'dash': 'solid'
-                        },
-                        'marker': {
-                            'size': 8,
-                            'symbol': 'circle',
-                            'color': '#d81313'
-                        },
-                        'hovertemplate': "<b>Quote Price:</b> %{y:.2f}<extra></extra>"
-                    }
-                ],
-                'layout': {
-                    'title': f'Analysis for Product Code: {wrapped_description}',
-                    'xaxis': {'title': 'Quote Date'},
-                    'yaxis': {'title': 'Quantity'},
-                    'yaxis2': {
-                        'title': 'Price',
-                        'overlaying': 'y',
-                        'side': 'right',
-                        'showgrid': False ,
-                        'color': '#d81313'
-                    },
-                    'barmode': 'group',
-                    'transition_duration': 500,
-                    'transition_easing': 'cubic-in-out',
-                    'showlegend': True,
-                    'legend': {
-                        'orientation': 'h',
-                        'yanchor': 'bottom',
-                        'y': 1.02,
-                        'xanchor': 'right',
-                        'x': 1
-                    }
-                }
-            }
+           
+            bar_figure = go.Figure()
+            bar_figure.add_trace(
+                go.Bar(
+                    x=result['QUOTE_DATE'],
+                    y=result['QUANTITY'],
+                    name='Quantity',
+                    marker_color='rgba(135, 206, 250, 0.6)',
+                    marker_line_color='rgba(135, 206, 250, 0.6)',
+                    marker_line_width = 2,
+                    customdata=result[["WIRE_PRICE", "PROFIT_RATE", "EXCHANGE_RATE"]].to_numpy(),
+                    hovertemplate=(
+                        "Date: %{x}<br>"
+                        "Quantity: %{y}M<br>"
+                        "Wire Price: %{customdata[0]}<br>"
+                        "Profit: %{customdata[1]}<br>"
+                        "Exchange rate: %{customdata[2]}"
+                    )
+                )
+            )
+            bar_figure.add_trace(
+                go.Bar(
+                    x=order_info['CREA_DATE'],
+                    y=order_info['ORDER_QTY'],
+                    name='Order Quantity',
+                    marker_line_color='orange',
+                    marker_color='orange',
+                    marker_line_width = 2,
+                    customdata=order_info[["PRICE", "SC_NO", "CREA_DATE"]].to_numpy(),
+                    hovertemplate=(
+                        "Order Quantity: %{y}M<br>"
+                        "SC: %{customdata[1]}<br>"
+                        "Order Price: %{customdata[0]}<br>"
+                        "Order Date: %{customdata[2]}<br>"
+                    )
+                )
+            )
+            bar_figure.add_trace(
+                go.Scatter(
+                    x=result['QUOTE_DATE'],
+                    y=result['TOTAL_PRICE_M'],
+                    name='Quote Price',
+                    mode='lines+markers',
+                    yaxis='y2',
+                    line=dict(color='#d81313', width=2, dash='solid'),
+                    marker=dict(size=8, symbol='circle', color='#d81313'),
+                    hovertemplate="Quote Price: %{y:.2f}"
+                )
+            )
+            bar_figure.update_layout(
+                title=dict(text = wrapped_description, x = 0.5, xanchor='center'),  
+                xaxis=dict(title='Quote Date'),
+                yaxis=dict(title='Quantity'),
+                yaxis2=dict(
+                    title='Price',
+                    overlaying='y',
+                    side='right',
+                    showgrid=False,
+                    color='#d81313'
+                ),
+                barmode='group',
+                transition_duration=500,
+                transition_easing='cubic-in-out',
+                showlegend=True,
+                legend=dict(
+                    orientation='h',
+                    yanchor='bottom',
+                    y=1.02,
+                    xanchor='right',
+                    x=1
+                ),
+                template='plotly_white',
+                margin=dict(t=100)
+            )
             
             # Store the graph and product code separately
             app.graphs.append(bar_figure)  # Store only the graph data
@@ -424,7 +421,7 @@ def handle_all_inputs(search_clicks, product_clicks, quote_submit, product_submi
             
             return (
                 html.Div([
-                    html.Div(f"Results for Product Code : {product_code}",
+                    html.Div(f"Results for Product Code : {product_code}", 
                             className = "quotation-title"),
                     html.Div(f"Graph {app.current_graph_index + 1} of {len(app.graphs)}",
                             className="graph-counter")
@@ -447,23 +444,23 @@ def handle_all_inputs(search_clicks, product_clicks, quote_submit, product_submi
                 {'display': 'none'}
             )
 
-# Add new callback for database update
-@app.callback(
-    Output('update-status', 'children'),
-    Input('update-db-button', 'n_clicks'),
-    State('file-path-input', 'value')
-)
-def update_database(n_clicks, file_path):
-    if n_clicks == 0 or not file_path:
-        return ""
+# # Add new callback for database update/ temporaly close since this function didn't used frequently
+# @app.callback(
+#     Output('update-status', 'children'),
+#     Input('update-db-button', 'n_clicks'),
+#     State('file-path-input', 'value')
+# )
+# def update_database(n_clicks, file_path):
+#     if n_clicks == 0 or not file_path:
+#         return ""
     
-    try:
-        TT.UPDATEDB_BYFILE(file_path)
-        return html.Div("Database updated successfully!", 
-                    className="success-message")
-    except Exception as e:
-        return html.Div(f"Error updating database: {str(e)}",
-                    className="error-message")
+#     try:
+#         TT.UPDATEDB_BYFILE(file_path)
+#         return html.Div("Database updated successfully!", 
+#                     className="success-message")
+#     except Exception as e:
+#         return html.Div(f"Error updating database: {str(e)}",
+#                     className="error-message")
 
 # Update the callback to only handle clear graphs
 @app.callback(
@@ -604,9 +601,9 @@ def verify_volume_order(n_clicks, sc_num):
     prevent_initial_call=True
 )
 def Cement_Chart(n_clicks):
-    water_level_engine = NN_SCREW_WATER_LEVEL()
-    fig = water_level_engine.DRAW_CHART()
-    return dcc.Graph(figure = fig, style = {'width': '100%', 'height': '500px'})
+    bot = NN_SCREW_WATER_LEVEL()
+    fig = bot.DRAW_CHART()
+    return dcc.Graph(id="main-chart", figure=fig, style={"width": "100%", "height": "700px"})
 
 
 # popup window module
@@ -624,73 +621,111 @@ def toggle_modal(n_open, n_submit, n_close, is_open):
     return not is_open
 
 
+# Callback to toggle the notification modal and update its content
 @app.callback(
-    Output("address_column_export_output", "children"),
+    [
+        Output("notification_modal", "is_open"),
+        Output("notification_modal_title", "children"),
+        Output("notification_modal_body", "children"),
+        Output("address_column_export_output", "children")
+    ],
     [
         Input("submit_exchange_rate", "n_clicks"),
         Input("PM_DEL_export_button", "n_clicks"),
         Input("Mark_export_button", "n_clicks"),
+        Input("close_notification_modal", "n_clicks")
     ],
     [
         State("exchange_rate_input", "value"),
         State("address_column_export_value", "value"),
+        State("notification_modal", "is_open")
     ],
     prevent_initial_call=True
 )
-def generate_sheet(n_submit, n_pm_del, n_mark, exchange_rate, file_address):
+def generate_sheet(n_submit, n_pm_del, n_mark, n_close_notification, exchange_rate, file_address, notification_modal_open):
     ctx = dash.callback_context
     if not ctx.triggered:
-        return ""
+        return False, "", "", ""
 
     button_id = ctx.triggered[0]["prop_id"].split(".")[0]
-    
+
+    # Close notification modal if close button is clicked
+    if button_id == "close_notification_modal":
+        return False, "", "", dash.no_update
+
+    # Initialize outputs
+    modal_is_open = False
+    modal_title = ""
+    modal_body = ""
+    output_content = ""
+
     if button_id == "submit_exchange_rate" and n_submit:
         try:
             if not file_address:
-                return html.Div("Error: File address is required", style={"color": "red"})
+                modal_title = "Error"
+                modal_body = html.P("File address is required", style={"color": "red", "fontSize": "35px", "fontWeight": "bold", "margin": 0})
+                return True, modal_title, modal_body, ""
             if exchange_rate is None or exchange_rate <= 0:
-                return html.Div("Error: Invalid exchange rate", style={"color": "red"})
+                modal_title = "Error"
+                modal_body = html.P("Invalid exchange rate", style={"color": "red", "fontSize": "35px", "fontWeight": "bold", "margin": 0})
+                return True, modal_title, modal_body, ""
             # Replace with your actual ORDER_COST_EXPORT_CLS implementation
             generator = ORDER_COST_EXPORT_CLS(file_address, exchange_rate)
-            return html.Div(f"Check file address: {file_address}, Exchange Rate: {exchange_rate}")
+            modal_title = "Success"
+            modal_body = html.P(f"Check file address: {file_address}, Exchange Rate: {exchange_rate}", style={"color": "green", "fontSize": "20px", "margin": 0})
+            return True, modal_title, modal_body, ""
         except Exception as e:
-            return html.Div(f"Error: {str(e)}", style={"color": "red"})
+            modal_title = "Error"
+            modal_body = html.P(f"Error: {str(e)}", style={"color": "red", "fontSize": "35px", "fontWeight": "bold", "margin": 0})
+            return True, modal_title, modal_body, ""
 
     elif button_id == "PM_DEL_export_button" and n_pm_del:
         try:
             if not file_address:
-                return html.Div("Error: File address is required", style={"color": "red"})
+                modal_title = "Error"
+                modal_body = html.P("File address is required", style={"color": "red", "fontSize": "35px", "fontWeight": "bold", "margin": 0})
+                return True, modal_title, modal_body, ""
             generator = PM_LIST_EXPORT(file_address)
-            output = [
-                html.P(f"SC Number: {generator.SC_Number}"),
-                html.P(f"Order Number: {generator.Order_Number}"),
-                html.P(f"Customer Code: {generator.Customer_Code}"),
-            ]
-            return html.Div(output)
+            modal_title = "Success"
+            modal_body = html.Div([
+                html.P(f"SC Number: {generator.SC_Number}", style={"color": "green", "fontSize": "20px", "margin": 0}),
+                html.P(f"Order Number: {generator.Order_Number}", style={"color": "green", "fontSize": "20px", "margin": 0}),
+                html.P(f"Customer Code: {generator.Customer_Code}", style={"color": "green", "fontSize": "20px", "margin": 0}),
+            ], style={"textAlign": "center"})
+            return True, modal_title, modal_body, ""
         except Exception as e:
-            return html.Div(f"Error: {str(e)}", style={"color": "red"})
+            modal_title = "Error"
+            modal_body = html.P(f"Error: {str(e)}", style={"color": "red", "fontSize": "35px", "fontWeight": "bold", "margin": 0})
+            return True, modal_title, modal_body, ""
 
     elif button_id == "Mark_export_button" and n_mark:
         try:
             if not file_address:
-                return html.Div("Error: File address is required", style={"color": "red"})
+                modal_title = "Error"
+                modal_body = html.P("File address is required", style={"color": "red", "fontSize": "35px", "fontWeight": "bold", "margin": 0})
+                return True, modal_title, modal_body, ""
             generator = MARK_SHEET_EXPORT(file_address)
+            modal_title = "Success"
             if generator.New_Item.empty:
-                return html.Div("無初次下單 不需麥頭", style={"color": "green"})
+                modal_body = html.P("無初次下單 不需麥頭", style={"color": "green", "fontSize": "20px", "margin": 0})
             else:
-                output = [
-                    html.P(f"SC Number: {generator.SC_Number}"),
-                    html.P(f"Order Number: {generator.Order_Number}")
-                ]
-                return html.Div(output)
+                modal_body = html.Div([
+                    html.P(f"SC Number: {generator.SC_Number}", style={"color": "green", "fontSize": "20px", "margin": 0}),
+                    html.P(f"Order Number: {generator.Order_Number}", style={"color": "green", "fontSize": "20px", "margin": 0})
+                ], style={"textAlign": "center"})
+            return True, modal_title, modal_body, ""
         except Exception as e:
-            return html.Div(f"Error: {str(e)}", style={"color": "red"})
+            modal_title = "Error"
+            modal_body = html.P(f"Error: {str(e)}", style={"color": "red", "fontSize": "35px", "fontWeight": "bold", "margin": 0})
+            return True, modal_title, modal_body, ""
+
+    return modal_is_open, modal_title, modal_body, output_content
 
 
 if __name__ == "__main__":
     app.run(debug=True,  
             dev_tools_hot_reload=True, 
             host = "127.0.0.1", 
-            port = 8070)
+            port = 8069)
 
 

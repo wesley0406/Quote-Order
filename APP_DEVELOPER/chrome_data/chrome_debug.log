@@ -1,6 +1,63 @@
-[7696:9696:0502/083905.210:INFO:chrome_browser_cloud_management_controller.cc(202)] No machine level policy manager exists.
-[5044:13896:0502/083905.786:WARNING:spdy_session.cc(2980)] Received HEADERS for invalid stream 1
-[15628:9016:0502/083906.303:ERROR:direct_composition_support.cc(1126)] QueryInterface to IDCompositionDevice4 failed: 不支援此種介面 (0x80004002)
-[7696:9696:0502/083916.750:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:5159
-[7696:9696:0502/083916.750:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:45159
-[7696:9696:0502/083917.239:WARNING:controller_impl.cc(1187)] Background download complete, client: 6, completion type: 0, file size:2747170
+[8332:16684:0516/164917.148:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[17292:7692:0516/164918.024:WARNING:ui\gl\direct_composition_support.cc:1195] QueryInterface to IDCompositionDevice4 failed: 不支援此種介面 (0x80004002)
+[8332:16684:0516/164927.768:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:5156
+[8332:16684:0516/164927.769:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:45157
+[8332:16684:0516/164928.066:WARNING:components\download\internal\background_service\controller_impl.cc:1187] Background download complete, client: 6, completion type: 0, file size:2747169
+[8332:16684:0516/164933.886:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164933.886:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164933.886:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164933.886:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164937.586:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164937.586:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164937.586:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164937.586:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164937.586:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164937.586:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164945.142:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164945.142:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164945.142:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164945.142:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164945.142:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164945.142:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164950.802:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164950.802:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164950.802:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164950.802:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164950.802:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164950.802:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164952.887:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164952.887:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164952.887:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164952.887:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164952.887:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164952.887:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164958.850:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164958.850:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164958.850:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164958.850:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164958.850:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/164958.850:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165004.333:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165004.333:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165004.333:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165004.333:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165004.333:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165004.333:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.410:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.410:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.410:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.410:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.410:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.410:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.453:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.453:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.453:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.453:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.453:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165006.453:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165012.580:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165012.580:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165012.580:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165012.580:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165012.580:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame
+[8332:16684:0516/165012.580:WARNING:components\autofill\content\browser\content_autofill_driver.cc:218] Skipped Autofill message for inactive frame

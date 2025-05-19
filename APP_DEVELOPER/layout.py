@@ -75,27 +75,27 @@ def create_layout():
                 ], className="input-container"),
 
                 #new container check
-                html.Div([
-                    html.Label("Update Database:", className="input-label"),
-                    html.Div([
-                        dcc.Input(
-                            id='file-path-input',
-                            type='text',
-                            placeholder="Enter file path...",
-                            className="input-field file-input",
-                        ),
-                        html.Button("Update DB", 
-                            id='update-db-button', 
-                            n_clicks=0,
-                            className="search-button"
-                        ),
-                        html.Button("Clear Out",
-                            id='clear-button', 
-                            n_clicks=0,
-                            className="search-button"
-                        )
-                    ], className="input-group"),
-                ], className="input-container"),
+                # html.Div([
+                #     html.Label("Update Database:", className="input-label"),
+                #     html.Div([
+                #         dcc.Input(
+                #             id='file-path-input',
+                #             type='text',
+                #             placeholder="Enter file path...",
+                #             className="input-field file-input",
+                #         ),
+                #         html.Button("Update DB", 
+                #             id='update-db-button', 
+                #             n_clicks=0,
+                #             className="search-button"
+                #         ),
+                #         html.Button("Clear Out",
+                #             id='clear-button', 
+                #             n_clicks=0,
+                #             className="search-button"
+                #         )
+                #     ], className="input-group"),
+                # ], className="input-container"),
 
             ], className="input-row"),
 

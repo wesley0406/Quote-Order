@@ -24,7 +24,7 @@ class PM_LIST_EXPORT:
 			if "0210M" in file:
 				SSL_excel = os.path.join(self.PATH, file)
 		if not SSL_excel: 
-			raise ValueError("PLease download the SSL0210 excel file")
+			raise ValueError("Please download the SSL0210 excel file")
 			exit()
 		else :
 			self.ALL = pd.read_excel(SSL_excel)
@@ -44,7 +44,7 @@ class PM_LIST_EXPORT:
 			password = "select",     # Replace with your password
 			dsn = dsn
 		)
-		query = f"SELECT SC_NO,CST_REFE_NO,ORD_CST_NO FROM V_SCH0200Q_ORD WHERE CST_PART_NO = '{First_Item}' "
+		query = f"SELECT SC_NO,CST_REFE_NO,ORD_CST_NO FROM V_SCH0200Q_ORD WHERE CST_PART_NO = '{First_Item}' ORDER BY SC_NO DESC"
 		df = pd.read_sql_query(query, connection)
 		self.Order_Number = df["CST_REFE_NO"].iloc[0]
 		self.SC_Number = df["SC_NO"].iloc[0]

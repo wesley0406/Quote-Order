@@ -27,7 +27,8 @@ class MARK_SHEET_EXPORT:
 				found = True
 				break
 		if not found:
-			raise FileNotFoundError("No file with '0210M' found in directory")
+			raise ValueError("No file with '0210M' found in directory")
+			exit()
 
 		self.ALL = pd.read_excel(path)
 
@@ -56,7 +57,7 @@ class MARK_SHEET_EXPORT:
 			password = "select",     # Replace with your password
 			dsn = dsn
 		)
-		query = f"SELECT SC_NO,CST_REFE_NO,ORD_CST_NO FROM V_SCH0200Q_ORD WHERE CST_PART_NO = '{First_Item}' "
+		query = f"SELECT SC_NO,CST_REFE_NO,ORD_CST_NO FROM V_SCH0200Q_ORD WHERE CST_PART_NO = '{First_Item}' ORDER BY SC_NO DESC "
 		df = pd.read_sql_query(query, connection)
 		self.Order_Number = df["CST_REFE_NO"].iloc[0]
 		self.SC_Number = df["SC_NO"].iloc[0]

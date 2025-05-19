@@ -24,10 +24,11 @@ class ORDER_COST_EXPORT_CLS() :
 	def ORDER_INFO(self):
 		SSL_excel = None
 		for file in os.listdir(self.PATH):
+			print(file)
 			if "0210M" in file:
 				SSL_excel = os.path.join(self.PATH, file)
 		if not SSL_excel: 
-			raise ValueError("PLease download the SSL0210 excel file")
+			raise ValueError("Please download the SSL0210 excel file")
 			exit()
 		else :
 			self.ALL = pd.read_excel(SSL_excel)
@@ -47,7 +48,7 @@ class ORDER_COST_EXPORT_CLS() :
 			password = "select",     # Replace with your password
 			dsn = dsn
 		)
-		query1 = f"SELECT SC_NO,CST_REFE_NO,ORD_CST_NO FROM V_SCH0200Q_ORD WHERE CST_PART_NO = '{First_Item}' "
+		query1 = f"SELECT SC_NO,CST_REFE_NO,ORD_CST_NO FROM V_SCH0200Q_ORD WHERE CST_PART_NO = '{First_Item}' ORDER BY SC_NO DESC"
 		df1 = pd.read_sql_query(query1, connection)
 		self.SC_Number = df1["SC_NO"].iloc[0]
 		self.Order_Number = df1["CST_REFE_NO"].iloc[0]
@@ -137,7 +138,7 @@ class ORDER_COST_EXPORT_CLS() :
 		for col in range(1, ws.max_column + 1):
 			for row in range(1, len(self.Item_List)+6):  
 				cell = ws.cell(row=row, column=col)
-				cell.font = Font(size=14)
+				cell.font = Font(size=16)
 
 		sign_row = len(self.Item_List)+7
 		ws[f"B{sign_row}"] = "核准:"

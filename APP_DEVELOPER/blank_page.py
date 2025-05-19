@@ -195,7 +195,7 @@ layout = html.Div([
                                     id="exchange_rate_input",
                                     type="number",
                                     value=33,
-                                    step=0.25,
+                                    step=0.01,
                                     className="form-control"
                                 ),
                                 width=8,
@@ -225,21 +225,7 @@ layout = html.Div([
                         'borderStyle': 'dashed solid',
                         'borderColor': 'black'
                     }
-            ),html.Button(
-                "輸出訂單成本表",
-                id ='order_list_export_button',
-                style = {
-                    'color': 'white',
-                    'padding': '10px 10px',
-                    'border': 'none',
-                    'borderRadius': '4px',
-                    'cursor': 'pointer',
-                    'fontSize': '15px',
-                    'fontWeight': 'bold',
-                    'width': '150px'
-                }
-            )
-            ,
+            ),
             html.Button(
                 "輸出明細",
                 id ='PM_DEL_export_button',
@@ -268,16 +254,34 @@ layout = html.Div([
                     'width': '150px'
                 }
             ),
+            html.Button(
+                "輸出訂單成本表",
+                id ='order_list_export_button',
+                style = {
+                    'color': 'white',
+                    'padding': '10px 10px',
+                    'border': 'none',
+                    'borderRadius': '4px',
+                    'cursor': 'pointer',
+                    'fontSize': '15px',
+                    'fontWeight': 'bold',
+                    'width': '150px'
+                }
+            ),
             html.Div("", id = "address_column_export_output"),
-            
-            # Error Message Modal
+
+            # Notification Modal (for both errors and success)
             dbc.Modal([
-                dbc.ModalHeader(dbc.ModalTitle("Error")),
-                dbc.ModalBody(id="error_modal_body"),
-                dbc.ModalFooter(
-                    dbc.Button("Close", id="close_error_modal", className="ms-auto", n_clicks=0)
+                dbc.ModalHeader(dbc.ModalTitle(id="notification_modal_title")),
+                dbc.ModalBody(
+                    id="notification_modal_body",
+                    className="d-flex justify-content-center align-items-center",
+                    style={"minHeight": "100px"}
                 ),
-            ], id="error_modal", is_open=False)
-        ], className = "sheet-container")
+                dbc.ModalFooter(
+                    dbc.Button("Close", id="close_notification_modal", className="ms-auto", n_clicks=0)
+                ),
+            ], id="notification_modal", is_open=False)
+            ], className = "sheet-container")
     ], className = "sheet_output_continaer", style = {'backgroundcolor': '#D6D6AD'})
 ])

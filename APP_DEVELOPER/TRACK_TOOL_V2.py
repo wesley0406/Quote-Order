@@ -232,8 +232,9 @@ def UPDATEDB_BYFILE(file_path):
 def SINGLE_ITEM_RECORD_V2(df_quote, RAW_ORDER):
     # Input validation
     if df_quote is None or df_quote.empty:
-        print("Warning: Quote dataframe is empty")
-        return pd.DataFrame()
+        raise ValueError("Quote dataframe is empty")
+        exit()
+        
 
     # Initialize quote dataframe columns
     df_quote["CREA_DATE"] = None
@@ -275,7 +276,7 @@ def test_single_item_record():
     return quote_data
 
 if __name__ == "__main__":
-    #test_single_item_record()
+    test_single_item_record()
     ORDER = FETCH_DATA()
     QUOTE = SEARCH_THROUGH_RFQ(6000120044)
     ORDER_ACCPET_RATE_W, ORDER_ACCPET_RATE_I, SC_CODE, ORDER_WEIGHT, result = CONCAT_QUOTE_ORDER(QUOTE, ORDER)
