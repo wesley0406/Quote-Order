@@ -227,7 +227,7 @@ layout = html.Div([
                     }
             ),
             html.Button(
-                "輸出明細",
+                "輸出明細及生管訂單",
                 id ='PM_DEL_export_button',
                 style = {
                     'color': 'white',
@@ -237,7 +237,7 @@ layout = html.Div([
                     'cursor': 'pointer',
                     'fontSize': '15px',
                     'fontWeight': 'bold',
-                    'width': '150px'
+                    'width': '160px'
                 }
             ),
             html.Button(

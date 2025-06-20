@@ -12,7 +12,7 @@ import dash.exceptions
 from collections import deque
 from layout import create_layout  # Import the layout
 import blank_page
-from flask import Flask, jsonify, Blueprint
+from flask import Flask, jsonify, Blueprint,request
 import dash_bootstrap_components as dbc
 
 # import function from the file
@@ -720,6 +720,9 @@ def generate_sheet(n_submit, n_pm_del, n_mark, n_close_notification, exchange_ra
             return True, modal_title, modal_body, ""
 
     return modal_is_open, modal_title, modal_body, output_content
+
+
+# line bot auto sent
 
 
 if __name__ == "__main__":

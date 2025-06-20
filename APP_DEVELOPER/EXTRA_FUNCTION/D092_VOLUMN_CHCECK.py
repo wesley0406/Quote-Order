@@ -46,6 +46,8 @@ class NN_CHECKVOLUMN :
         with self._get_db_connection() as connection:
             self.PCK_WEI_DF = self._fetch_package_weights(connection)
             self.order_df = self._fetch_order_data(connection)
+            self.order_df = self.order_df[self.order_df["END_CODE"] != "D"]
+            self.order_df.to_excel("ssl_cst_order_d.xlsx")
 
 
     def ORDER_WEI_SUMMERIZED(self):

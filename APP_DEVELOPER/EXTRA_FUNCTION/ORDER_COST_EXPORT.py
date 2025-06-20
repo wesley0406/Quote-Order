@@ -31,7 +31,7 @@ class ORDER_COST_EXPORT_CLS() :
 			raise ValueError("Please download the SSL0210 excel file")
 			exit()
 		else :
-			self.ALL = pd.read_excel(SSL_excel)
+			self.ALL = pd.read_excel(SSL_excel, dtype={'客戶產品代號(P/N)': str})
 
 	def FETCH_DATA(self):
 		First_Item = self.ALL["客戶產品代號(P/N)"].iloc[0]

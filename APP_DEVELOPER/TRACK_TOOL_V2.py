@@ -74,7 +74,7 @@ def FETCH_DATA():
                 "CST_JOB_NO"    # 指定批號
                 ]
     query = f"SELECT {', '.join(TARGET_COLUMN)} FROM ssl_cst_orde_d"
-    #query = f"SELECT * FROM ssl_cst_orde_d"
+
     df = pd.read_sql_query(query, connection)
     df2 = pd.read_sql_query("SELECT SC_NO, ORD_CST_NO FROM ssl_cst_orde_m", connection)
     connection.close()
@@ -251,6 +251,11 @@ def SINGLE_ITEM_RECORD_V2(df_quote, RAW_ORDER):
     product_code = df_quote.loc[0, "PRODUCT_CODE"]
     df_order = RAW_ORDER[RAW_ORDER["CLEANED_CST_PART_NO"] == product_code].copy()
     df_order["CREA_DATE"] = pd.to_datetime(df_order["CREA_DATE"]).dt.date
+
+    if not df_order.empty:
+        # Assuming 'ORDER_NO' is the column for order number and 'QUANTITY' is the column for quantity
+        df_order = df_order.groupby(['SC_NO', 'CLEANED_CST_PART_NO', 'CREA_DATE', "PRICE"])['ORDER_QTY'].sum().reset_index()
+        df_order.to_excel("group_test.xlsx")
     
 
     # Final processing
@@ -268,7 +273,7 @@ def SINGLE_ITEM_RECORD_V2(df_quote, RAW_ORDER):
 def test_single_item_record():
     a = FETCH_DATA()
     #a.to_excel("ALL_ORDER.xlsx")
-    b = SEARCH_THROUGH_ITEM("089150.00406.0039.030")
+    b = SEARCH_THROUGH_ITEM("0297134")
     quote_data, order_data = SINGLE_ITEM_RECORD_V2(b, a)
     print("\nOrder Status:")
     print(quote_data[["PRODUCT_CODE", "Paired_Status", "QUOTE_DATE"]])
@@ -277,9 +282,9 @@ def test_single_item_record():
 
 if __name__ == "__main__":
     test_single_item_record()
-    ORDER = FETCH_DATA()
-    QUOTE = SEARCH_THROUGH_RFQ(6000120044)
-    ORDER_ACCPET_RATE_W, ORDER_ACCPET_RATE_I, SC_CODE, ORDER_WEIGHT, result = CONCAT_QUOTE_ORDER(QUOTE, ORDER)
+    # ORDER = FETCH_DATA()
+    # QUOTE = SEARCH_THROUGH_RFQ(6000120044)
+    # ORDER_ACCPET_RATE_W, ORDER_ACCPET_RATE_I, SC_CODE, ORDER_WEIGHT, result = CONCAT_QUOTE_ORDER(QUOTE, ORDER)
     # result.columns = result.columns.str.strip() 
     # print(result)
     # print(result['PRODUCT_CODE'].dtype)

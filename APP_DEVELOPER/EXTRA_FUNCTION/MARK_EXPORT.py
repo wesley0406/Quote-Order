@@ -30,7 +30,7 @@ class MARK_SHEET_EXPORT:
 			raise ValueError("No file with '0210M' found in directory")
 			exit()
 
-		self.ALL = pd.read_excel(path)
+		self.ALL = pd.read_excel(path, dtype={'客戶產品代號(P/N)': str})
 
 		self.New_Item = self.ALL[self.ALL["初次下單"] == "Y"]
 		self.New_Item = self.New_Item.reset_index(drop = True)
