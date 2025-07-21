@@ -2,11 +2,14 @@ import googlemaps
 import numpy as np
 import pandas as pd
 import requests
+import json
 
 class CO2_Calculator:
+    with open(r"C:\Users\wesley\Desktop\API_KEYS.json") as f:
+        config = json.load(f)
 
     def __init__(self):
-        self.gmaps = googlemaps.Client(key = 'AIzaSyCU16jmyiCTJMC67-Jq4DoZjQ3zeKVpOkM')
+        self.gmaps = googlemaps.Client(key = config["GOOGLE_MAPS_API_KEY"])
         self.OUROWN_HOUSE = (23.492920860195206, 120.3796313899456)  # Starting location
         self.total_emission = 0
         self.log_path = r"Z:\\跨部門\\共用資料夾\\F. 管理部\\05.碳盤查資訊與資料\\2025年度碳盤資料\\活動數據\\類別三\\外車司機\\2025_CARTRACK_SUMMARY\\TRACK_LOG.txt"
