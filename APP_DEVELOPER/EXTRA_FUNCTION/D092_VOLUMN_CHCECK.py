@@ -33,7 +33,8 @@ class NN_CHECKVOLUMN :
         )
     def _fetch_package_weights(self, connection):
         """Fetch package weights from database"""
-        query = "SELECT PMT_NO, PCK_NAME, CTN_WT FROM sbs_pck_mate WHERE CST_NO = 'D09200'"
+        query = "SELECT * FROM sbs_pck_mate WHERE CST_NO = 'D09200'"
+        
         return pd.read_sql_query(query, connection)
 
     def _fetch_order_data(self, connection):
@@ -45,6 +46,7 @@ class NN_CHECKVOLUMN :
         """Initialize package weights and order data from database"""
         with self._get_db_connection() as connection:
             self.PCK_WEI_DF = self._fetch_package_weights(connection)
+            self.PCK_WEI_DF.to_excel("sbs_pck_mate.xlsx")
             self.order_df = self._fetch_order_data(connection)
             self.order_df = self.order_df[self.order_df["END_CODE"] != "D"]
             self.order_df.to_excel("ssl_cst_order_d.xlsx")
@@ -72,6 +74,7 @@ class NN_CHECKVOLUMN :
         weight_df["carton_weight"] = weight_df["carton_code"].map(package_weights)
         weight_df["inner_box_weight"] = weight_df["inner_box_code"].map(package_weights)
         weight_df = weight_df.fillna(0)
+
         # 4. Calculate total packaging weight
         
         weight_df["total_package_weight"] = (
@@ -89,9 +92,10 @@ class NN_CHECKVOLUMN :
         self.DOUBLE_PALLETS = weight_df.loc[weight_df["inner_box_qty"] > 1, "pallet_qty"].sum()
         return weight_df
 
-# if __name__ == "__main__":
-#     bot = NN_CHECKVOLUMN()
-#     total_df = bot.ORDER_WEI_SUMMERIZED()
+if __name__ == "__main__":
+    bot = NN_CHECKVOLUMN()
+    bot._initialize_data()
+    total_df = bot.ORDER_WEI_SUMMERIZED()
 
 
 

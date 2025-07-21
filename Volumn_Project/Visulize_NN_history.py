@@ -1,8 +1,9 @@
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import os
 
-def visualize_training_history(excel_file='training_history.xlsx'):
+def visualize_training_history(excel_file = None):
     """
     Load training history from Excel and create Plotly visualizations for loss, MAE, and MSE.
     
@@ -23,55 +24,47 @@ def visualize_training_history(excel_file='training_history.xlsx'):
             return
         
         # Create subplots
-        fig = make_subplots(
-            rows=3, cols=1,
-            subplot_titles=('Training and Validation Loss', 'Training and Validation MAE', 'Training and Validation MSE'),
-            shared_xaxes=True,
-            vertical_spacing=0.1
-        )
+        # fig = make_subplots(
+        #     rows = 2, cols=1,
+        #     subplot_titles=('Training and Validation Loss', 'Training and Validation MSE'),
+        #     shared_xaxes=True,
+        #     vertical_spacing=0.1
+        # )
+        fig = go.Figure()
         
         # Plot Loss
         fig.add_trace(
-            go.Scatter(x=df['epoch'], y=df['loss'], mode='lines', name='Training Loss', line=dict(color='blue')),
-            row=1, col=1
-        )
-        fig.add_trace(
-            go.Scatter(x=df['epoch'], y=df['val_loss'], mode='lines', name='Validation Loss', line=dict(color='red')),
-            row=1, col=1
+            go.Scatter(x=df['epoch'], y=df['loss'], mode='lines', name='Training Loss', line=dict(color='blue'))
         )
         
-        # Plot MAE
         fig.add_trace(
-            go.Scatter(x=df['epoch'], y=df['mae'], mode='lines', name='Training MAE', line=dict(color='blue')),
-            row=2, col=1
-        )
-        fig.add_trace(
-            go.Scatter(x=df['epoch'], y=df['val_mae'], mode='lines', name='Validation MAE', line=dict(color='red')),
-            row=2, col=1
-        )
-        
-        # Plot MSE
-        fig.add_trace(
-            go.Scatter(x=df['epoch'], y=df['mse'], mode='lines', name='Training MSE', line=dict(color='blue')),
-            row=3, col=1
-        )
-        fig.add_trace(
-            go.Scatter(x=df['epoch'], y=df['val_mse'], mode='lines', name='Validation MSE', line=dict(color='red')),
-            row=3, col=1
+            go.Scatter(x=df['epoch'], y=df['val_mse'], mode='lines', name='Validation MSE', line=dict(color='red'), yaxis="y2")
         )
         
         # Update layout
         fig.update_layout(
-            title='Neural Network Training History',
-            height=900,
-            showlegend=True,
-            xaxis3=dict(title='Epoch'),
-            yaxis1=dict(title='Loss (Huber)'),
-            yaxis2=dict(title='MAE (mm³)'),
-            yaxis3=dict(title='MSE (mm³²)')
+            title='Training Loss and Validation MSE',
+            xaxis=dict(
+                title='Epoch',
+                tickmode='linear',
+                tick0=0,
+                dtick=5
+            ),
+            yaxis=dict(
+                title='Training Loss',
+                tickfont=dict(color='blue')
+            ),
+            yaxis2=dict(
+                title='Validation MSE',
+                tickfont=dict(color='red'),
+                overlaying='y',
+                side='right'
+            ),
+            height=500,
+            showlegend=True
         )
-        
         # Save and display
+        history_folder = r"C:\Users\wesley\Desktop\workboard\Volumn_Project\History"
         fig.write_html('training_history_plot.html')
         print("Plot saved to training_history_plot.html")
         fig.show()
@@ -81,4 +74,5 @@ def visualize_training_history(excel_file='training_history.xlsx'):
         raise
 
 if __name__ == "__main__":
-    visualize_training_history()
+    target = input("Enter the history file : ")
+    visualize_training_history(target)

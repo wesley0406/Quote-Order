@@ -1,0 +1,968 @@
+Starting new log!
+
+Optimized route order: 2024-01-03-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 88.325km, 1 hour 5 mins, Emission 1952.1591500000002
+2: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 5-2號, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 2.892km, 6 mins, Emission 53.215692
+3: No. 5-2號, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.761km, 4 mins, Emission 31.646931
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 16-3號, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.407km, 1 min, Emission 6.921035
+5: No. 16-3號, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.363km, 2 mins, Emission 19.530427
+6: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+7: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+8: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.783km, 2 mins, Emission 0.6600690000000001
+9: No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.278km, 1 hour 2 mins, Emission 0.0
+Total distance: 179.809 km
+Total Emission : 2064.133 Tons CO2e
+Total duration: 141.48 minutes
+
+Optimized route order: 2024-01-08-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 726, Taiwan, Tainan City, Xuejia District, 興業路397號, 43.59km, 32 mins, Emission 468.98481000000004
+2: 726, Taiwan, Tainan City, Xuejia District, 興業路397號 -> No. 35, Lane 80, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 60.895km, 46 mins, Emission 634.465005
+3: No. 35, Lane 80, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.998km, 2 mins, Emission 9.633694
+4: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.399km, 7 mins, Emission 12.821028
+5: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.77km, 4 mins, Emission 5.55249
+6: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+7: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+8: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 195.610 km
+Total Emission : 1131.457 Tons CO2e
+Total duration: 153.98 minutes
+
+Optimized route order: 2024-01-10-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 747.743662
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 0.325649
+4: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 93.514km, 1 hour 7 mins, Emission 0.0
+Total distance: 185.749 km
+Total Emission : 748.069 Tons CO2e
+Total duration: 133.00 minutes
+
+Optimized route order: 2024-01-12-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1944.37925
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 1.351km, 3 mins, Emission 25.890563999999998
+4: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.386km, 3 mins, Emission 23.370732
+5: No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 45之9號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.419km, 1 min, Emission 6.007203
+6: No. 45之9號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.674km, 6 mins, Emission 25.531352
+7: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號, 5.505km, 10 mins, Emission 25.42209
+8: 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 85.9km, 59 mins, Emission 0.0
+Total distance: 181.810 km
+Total Emission : 2050.601 Tons CO2e
+Total duration: 140.55 minutes
+
+Optimized route order: 2024-01-17-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 83.132km, 1 hour 1 min, Emission 1850.1026600000002
+2: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 6.721km, 11 mins, Emission 137.63935899999998
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.523km, 4 mins, Emission 45.325695
+5: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 2.418km, 5 mins, Emission 40.902888
+6: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 4.316km, 9 mins, Emission 64.623468
+7: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號, 5.922km, 10 mins, Emission 55.583892
+8: 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 85.9km, 59 mins, Emission 0.0
+Total distance: 190.932 km
+Total Emission : 2194.178 Tons CO2e
+Total duration: 158.73 minutes
+
+Optimized route order: 2024-01-23-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號, 84.548km, 57 mins, Emission 1908.417456
+2: 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號 -> 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號, 0.0km, 1 min, Emission 0.0
+3: 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 6.34km, 11 mins, Emission 119.70554
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 35, Lane 80, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.145km, 3 mins, Emission 5.83263
+6: No. 35, Lane 80, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.939km, 5 mins, Emission 5.457723
+7: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.892km, 1 hour 2 mins, Emission 0.0
+Total distance: 181.864 km
+Total Emission : 2039.413 Tons CO2e
+Total duration: 138.63 minutes
+
+Optimized route order: 2024-01-24-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 84.171km, 1 hour 3 mins, Emission 1685.860959
+2: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.89km, 3 mins, Emission 35.33166
+4: No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.903km, 5 mins, Emission 48.85749
+5: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+6: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 1.1691580000000001
+7: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.386km, 4 mins, Emission 8.871148000000002
+8: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 182.614 km
+Total Emission : 1780.090 Tons CO2e
+Total duration: 138.20 minutes
+
+Optimized route order: 2024-01-26-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1882.7638829999999
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2之18號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 4.043km, 8 mins, Emission 72.12307700000001
+3: No. 2之18號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.21km, 7 mins, Emission 52.68572999999999
+4: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.753km, 6 mins, Emission 31.871481
+5: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+6: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.903km, 4 mins, Emission 14.207798
+7: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 181.224 km
+Total Emission : 2053.652 Tons CO2e
+Total duration: 145.65 minutes
+
+Optimized route order: 2024-01-30-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 726, Taiwan, Tainan City, Xuejia District, 興業路397號, 43.59km, 32 mins, Emission 206.13711
+2: 726, Taiwan, Tainan City, Xuejia District, 興業路397號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 45.763km, 34 mins, Emission 0.0
+Total distance: 89.353 km
+Total Emission : 206.137 Tons CO2e
+Total duration: 66.37 minutes
+
+Optimized route order: 2024-01-31-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.607km, 1 hour 1 min, Emission 1935.403056
+2: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.89km, 5 mins, Emission 43.80662
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 1.759354
+5: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.766km, 5 mins, Emission 20.169672
+6: No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.573km, 1 min, Emission 0.5317439999999999
+7: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.892km, 1 hour 2 mins, Emission 0.0
+Total distance: 178.865 km
+Total Emission : 2001.670 Tons CO2e
+Total duration: 134.45 minutes
+
+Optimized route order: 2024-02-01-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.329km, 1 hour 0 mins, Emission 1654.3586519999997
+2: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 27號, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820, 1.364km, 3 mins, Emission 19.908944
+3: No. 27號, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.526km, 5 mins, Emission 27.907248
+4: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 1.3849330000000002
+5: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.523km, 4 mins, Emission 11.154183000000002
+6: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 183.006 km
+Total Emission : 1714.714 Tons CO2e
+Total duration: 135.47 minutes
+
+Optimized route order: 2024-02-02-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號, 84.548km, 57 mins, Emission 1908.924744
+2: 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 8.555km, 16 mins, Emission 156.21429999999998
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 3.029km, 6 mins, Emission 32.16798
+4: No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.23km, 3 mins, Emission 11.38365
+5: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+6: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.17km, 1 hour 3 mins, Emission 0.0
+Total distance: 184.532 km
+Total Emission : 2108.691 Tons CO2e
+Total duration: 145.18 minutes
+
+Optimized route order: 2024-02-05-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 18, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820, 86.502km, 1 hour 3 mins, Emission 162.62375999999998
+2: No. 18, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 88.065km, 1 hour 4 mins, Emission 0.0
+Total distance: 174.567 km
+Total Emission : 162.624 Tons CO2e
+Total duration: 126.67 minutes
+
+Optimized route order: 2024-02-06-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 726, Taiwan, Tainan City, Xuejia District, 興業路397號, 43.59km, 32 mins, Emission 872.5846200000001
+2: 726, Taiwan, Tainan City, Xuejia District, 興業路397號 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 56.65km, 45 mins, Emission 635.21645
+3: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246, 9.095km, 16 mins, Emission 8.89491
+4: 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 81.368km, 57 mins, Emission 0.0
+Total distance: 190.703 km
+Total Emission : 1516.696 Tons CO2e
+Total duration: 150.53 minutes
+
+Optimized route order: 2024-02-19-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1926.9568000000002
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.582km, 7 mins, Emission 57.949596
+4: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.386km, 3 mins, Emission 28.216836000000004
+5: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 4.595km, 8 mins, Emission 37.086245
+6: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> 老公 堀 圳, 阿蓮區高雄市 Taiwan 822, 3.624km, 7 mins, Emission 7.483560000000001
+7: 老公 堀 圳, 阿蓮區高雄市 Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.288km, 1 hour 0 mins, Emission 0.0
+Total distance: 182.050 km
+Total Emission : 2057.693 Tons CO2e
+Total duration: 145.25 minutes
+
+Optimized route order: 2024-02-20-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號, 84.548km, 57 mins, Emission 1661.8754880000001
+2: 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號 -> No. 13, Yonggong 1st Rd, Yong'an District, Kaohsiung City, Taiwan 828, 4.278km, 9 mins, Emission 75.81043799999999
+3: No. 13, Yonggong 1st Rd, Yong'an District, Kaohsiung City, Taiwan 828 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 9.043km, 17 mins, Emission 155.422041
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.573km, 1 min, Emission 6.450260999999999
+5: No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.889km, 4 mins, Emission 16.949997
+6: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+7: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 185.289 km
+Total Emission : 1916.508 Tons CO2e
+Total duration: 151.62 minutes
+
+Optimized route order: 2024-02-21-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1866.3165250000002
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.582km, 7 mins, Emission 66.30282
+3: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.523km, 4 mins, Emission 44.341725000000004
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 0.8296720000000001
+6: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2號, Alley 9, Lane 95, Zhongxiao Rd, Alian District, Kaohsiung City, Taiwan 822, 8.323km, 13 mins, Emission 46.741968
+7: No. 2號, Alley 9, Lane 95, Zhongxiao Rd, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 82.115km, 1 hour 0 mins, Emission 0.0
+Total distance: 181.255 km
+Total Emission : 2024.533 Tons CO2e
+Total duration: 142.50 minutes
+
+Optimized route order: 2024-02-22-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1700.890191
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.318km, 7 mins, Emission 56.551992
+3: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.647km, 6 mins, Emission 30.038156
+4: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.279km, 6 mins, Emission 26.743523999999997
+5: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.903km, 4 mins, Emission 11.301917
+6: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+7: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 3.63km, 6 mins, Emission 3.37953
+8: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 85.423km, 1 hour 4 mins, Emission 0.0
+Total distance: 184.557 km
+Total Emission : 1828.905 Tons CO2e
+Total duration: 150.92 minutes
+
+Optimized route order: 2024-02-27-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1897.35555
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.113km, 5 mins, Emission 33.581909
+3: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.476km, 5 mins, Emission 23.366011999999998
+4: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.705km, 6 mins, Emission 23.952825
+5: No. 137號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 5.022km, 9 mins, Emission 22.352922000000003
+6: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 85.423km, 1 hour 4 mins, Emission 0.0
+Total distance: 183.314 km
+Total Emission : 2000.609 Tons CO2e
+Total duration: 147.48 minutes
+
+Optimized route order: 2024-03-07-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號, 84.548km, 57 mins, Emission 1706.855024
+2: 821, Taiwan, Kaohsiung City, Luzhu District, 民主路89巷32號 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 6.039km, 11 mins, Emission 83.030211
+3: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 老公 堀 圳, 阿蓮區高雄市 Taiwan 822, 4.932km, 9 mins, Emission 40.689
+4: 老公 堀 圳, 阿蓮區高雄市 Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.288km, 1 hour 0 mins, Emission 0.0
+Total distance: 178.807 km
+Total Emission : 1830.574 Tons CO2e
+Total duration: 137.63 minutes
+
+Optimized route order: 2024-03-11-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1698.528195
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 6.358km, 13 mins, Emission 102.948736
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 3.439km, 7 mins, Emission 46.051649
+4: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.048km, 2 mins, Emission 11.035440000000001
+5: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.587km, 2 mins, Emission 4.2070289999999995
+6: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.77km, 4 mins, Emission 8.21988
+7: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 182.517 km
+Total Emission : 1870.991 Tons CO2e
+Total duration: 147.88 minutes
+
+Optimized route order: 2024-03-12-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1705.20115
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.113km, 5 mins, Emission 40.244198
+3: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.496km, 7 mins, Emission 56.421944
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 103號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.171km, 6 mins, Emission 32.401278
+6: No. 103號, Lane 80, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.251km, 1 min, Emission 1.9560430000000002
+7: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 老公 堀 圳, 阿蓮區高雄市 Taiwan 822, 2.709km, 5 mins, Emission 11.152953
+8: 老公 堀 圳, 阿蓮區高雄市 Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.288km, 1 hour 0 mins, Emission 0.0
+Total distance: 179.603 km
+Total Emission : 1847.378 Tons CO2e
+Total duration: 142.22 minutes
+
+Optimized route order: 2024-03-13-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 2044.8518940000001
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 0.269205
+4: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 93.514km, 1 hour 7 mins, Emission 0.0
+Total distance: 185.749 km
+Total Emission : 2045.121 Tons CO2e
+Total duration: 133.00 minutes
+
+Optimized route order: 2024-03-14-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 老公 堀 圳, 阿蓮區高雄市 Taiwan 822, 82.506km, 1 hour 0 mins, Emission 2201.67261
+2: 老公 堀 圳, 阿蓮區高雄市 Taiwan 822 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 0.948km, 3 mins, Emission 19.840692
+3: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.881km, 4 mins, Emission 26.349048
+4: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+6: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 3.63km, 6 mins, Emission 27.25404
+7: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 0.0km, 1 min, Emission 0.0
+8: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> No. 2號, Alley 9, Lane 95, Zhongxiao Rd, Alian District, Kaohsiung City, Taiwan 822, 4.217km, 7 mins, Emission 16.986075999999997
+9: No. 2號, Alley 9, Lane 95, Zhongxiao Rd, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 82.115km, 1 hour 0 mins, Emission 0.0
+Total distance: 175.297 km
+Total Emission : 2292.102 Tons CO2e
+Total duration: 139.30 minutes
+
+Optimized route order: 2024-03-14-2
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.329km, 1 hour 0 mins, Emission 1553.585103
+2: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.587km, 2 mins, Emission 8.108818
+3: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.89km, 5 mins, Emission 28.39425
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 93.651km, 1 hour 7 mins, Emission 0.0
+Total distance: 182.457 km
+Total Emission : 1590.088 Tons CO2e
+Total duration: 134.60 minutes
+
+Optimized route order: 2024-03-18-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 726, Taiwan, Tainan City, Xuejia District, 興業路397號, 43.59km, 32 mins, Emission 1015.69059
+2: 726, Taiwan, Tainan City, Xuejia District, 興業路397號 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 56.519km, 45 mins, Emission 841.907024
+3: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.274km, 2 mins, Emission 14.035658
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.809km, 2 mins, Emission 6.65807
+5: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 135, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.058km, 4 mins, Emission 3.7270379999999994
+6: No. 135, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.937km, 1 hour 2 mins, Emission 0.0
+Total distance: 191.187 km
+Total Emission : 1882.018 Tons CO2e
+Total duration: 147.67 minutes
+
+Optimized route order: 2024-03-19-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.819km, 1 hour 1 min, Emission 1738.349664
+2: No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 1.361km, 3 mins, Emission 18.044138
+3: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 84號, Lane 262, Taiping Rd, Luzhu District, Kaohsiung City, Taiwan 821, 6.562km, 10 mins, Emission 64.15667400000001
+4: No. 84號, Lane 262, Taiping Rd, Luzhu District, Kaohsiung City, Taiwan 821 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 79.405km, 55 mins, Emission 0.0
+Total distance: 173.147 km
+Total Emission : 1820.550 Tons CO2e
+Total duration: 128.72 minutes
+
+Optimized route order: 2024-03-19-2
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 85.809km, 1 hour 1 min, Emission 929.31147
+2: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2號, Alley 9, Lane 95, Zhongxiao Rd, Alian District, Kaohsiung City, Taiwan 822, 8.218km, 14 mins, Emission 65.66182
+3: No. 2號, Alley 9, Lane 95, Zhongxiao Rd, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 82.115km, 1 hour 0 mins, Emission 0.0
+Total distance: 176.142 km
+Total Emission : 994.973 Tons CO2e
+Total duration: 135.02 minutes
+
+Optimized route order: 2024-03-20-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 726, Taiwan, Tainan City, Xuejia District, 興業路397號, 43.59km, 32 mins, Emission 882.6103200000001
+2: 726, Taiwan, Tainan City, Xuejia District, 興業路397號 -> No. 84號, Lane 262, Taiping Rd, Luzhu District, Kaohsiung City, Taiwan 821, 49.499km, 39 mins, Emission 500.28639300000003
+3: No. 84號, Lane 262, Taiping Rd, Luzhu District, Kaohsiung City, Taiwan 821 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 79.405km, 55 mins, Emission 0.0
+Total distance: 172.494 km
+Total Emission : 1382.897 Tons CO2e
+Total duration: 126.38 minutes
+
+Optimized route order: 2024-03-25-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.703km, 1 hour 1 min, Emission 1941.258653
+2: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 3.986km, 8 mins, Emission 74.33890000000001
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 3.63km, 6 mins, Emission 54.04707
+4: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> 82242, Taiwan, Kaohsiung City, Alian District, 13-6, 4.073km, 11 mins, Emission 34.37612
+5: 82242, Taiwan, Kaohsiung City, Alian District, 13-6 -> 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246, 5.542km, 9 mins, Emission 13.167791999999999
+6: 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 81.368km, 57 mins, Emission 0.0
+Total distance: 184.302 km
+Total Emission : 2117.189 Tons CO2e
+Total duration: 152.98 minutes
+
+Optimized route order: 2024-03-26-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 726, Taiwan, Tainan City, Xuejia District, 興業路397號, 43.59km, 32 mins, Emission 723.3760500000001
+2: 726, Taiwan, Tainan City, Xuejia District, 興業路397號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 54.986km, 47 mins, Emission 245.897392
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 183.534 km
+Total Emission : 969.273 Tons CO2e
+Total duration: 142.68 minutes
+
+Optimized route order: 2024-03-27-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.703km, 1 hour 1 min, Emission 1940.4016230000002
+2: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.274km, 2 mins, Emission 21.729344
+3: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.316km, 8 mins, Emission 64.852216
+4: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 176.251 km
+Total Emission : 2026.983 Tons CO2e
+Total duration: 135.23 minutes
+
+Optimized route order: 2024-03-27-2
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.703km, 1 hour 1 min, Emission 1939.45889
+2: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.024km, 2 mins, Emission 14.6432
+3: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.503km, 5 mins, Emission 15.886541000000001
+4: No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.382km, 1 hour 3 mins, Emission 0.0
+Total distance: 176.612 km
+Total Emission : 1969.989 Tons CO2e
+Total duration: 130.88 minutes
+
+Optimized route order: 2024-03-29-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.607km, 1 hour 1 min, Emission 2468.2210240000004
+2: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.753km, 5 mins, Emission 71.222863
+3: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 3.061813
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.496km, 7 mins, Emission 65.539512
+5: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.433km, 7 mins, Emission 31.03432
+6: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.211km, 1 hour 2 mins, Emission 0.0
+Total distance: 181.637 km
+Total Emission : 2639.080 Tons CO2e
+Total duration: 141.52 minutes
+
+Optimized route order: 2024-03-29-2
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.703km, 1 hour 1 min, Emission 1461.1504470000002
+2: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.667km, 8 mins, Emission 47.971694
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 4.732km, 9 mins, Emission 23.338224
+4: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 85.423km, 1 hour 4 mins, Emission 0.0
+Total distance: 179.525 km
+Total Emission : 1532.460 Tons CO2e
+Total duration: 141.62 minutes
+
+Optimized route order: 2024-04-01-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 86.158km, 1 hour 2 mins, Emission 1988.698956
+2: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 3.841km, 7 mins, Emission 73.459125
+3: No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.762km, 4 mins, Emission 30.223586
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 2.603km, 5 mins, Emission 19.683886
+6: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 0.0km, 1 min, Emission 0.0
+7: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.914km, 1 hour 2 mins, Emission 0.0
+Total distance: 178.278 km
+Total Emission : 2112.066 Tons CO2e
+Total duration: 139.03 minutes
+
+Optimized route order: 2024-04-02-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 27號, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820, 86.405km, 1 hour 2 mins, Emission 1962.6031699999999
+2: No. 27號, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.126km, 7 mins, Emission 42.004062
+3: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.809km, 1 min, Emission 7.134571000000001
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11之8號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.075km, 2 mins, Emission 6.5102
+5: No. 11之8號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.66km, 1 hour 3 mins, Emission 0.0
+Total distance: 179.075 km
+Total Emission : 2018.252 Tons CO2e
+Total duration: 135.65 minutes
+
+Optimized route order: 2024-04-03-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 726, Taiwan, Tainan City, Xuejia District, 興業路397號, 43.59km, 32 mins, Emission 967.6980000000001
+2: 726, Taiwan, Tainan City, Xuejia District, 興業路397號 -> No. 11之8號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 61.219km, 47 mins, Emission 780.052498
+3: No. 11之8號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.789km, 10 mins, Emission 36.808254
+4: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 194.556 km
+Total Emission : 1784.559 Tons CO2e
+Total duration: 152.80 minutes
+
+Optimized route order: 2024-04-08-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 86.499km, 1 hour 3 mins, Emission 1993.1099579999998
+2: No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.544km, 6 mins, Emission 54.368504
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.523km, 4 mins, Emission 32.125359
+4: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 183.693 km
+Total Emission : 2079.604 Tons CO2e
+Total duration: 136.12 minutes
+
+Optimized route order: 2024-04-09-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 86.158km, 1 hour 2 mins, Emission 1934.6778900000002
+2: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 27號, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820, 3.861km, 7 mins, Emission 54.729675
+3: No. 27號, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.832km, 2 mins, Emission 9.277631999999999
+4: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.587km, 2 mins, Emission 3.777932
+5: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.892km, 1 hour 2 mins, Emission 0.0
+Total distance: 178.330 km
+Total Emission : 2002.463 Tons CO2e
+Total duration: 134.12 minutes
+
+Optimized route order: 2024-04-10-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246, 80.586km, 57 mins, Emission 1843.485336
+2: 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 5.108km, 8 mins, Emission 32.420476
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 1.886km, 4 mins, Emission 11.100995999999999
+4: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 0.0km, 1 min, Emission 0.0
+5: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.914km, 1 hour 2 mins, Emission 0.0
+Total distance: 171.494 km
+Total Emission : 1887.007 Tons CO2e
+Total duration: 131.00 minutes
+
+Optimized route order: 2024-04-10-2
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1922.749101
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 4.614km, 10 mins, Emission 81.381732
+3: No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.504km, 4 mins, Emission 32.043687999999996
+4: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2號, Alley 9, Lane 95, Zhongxiao Rd, Alian District, Kaohsiung City, Taiwan 822, 8.323km, 13 mins, Emission 24.203284
+5: No. 2號, Alley 9, Lane 95, Zhongxiao Rd, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 82.115km, 1 hour 0 mins, Emission 0.0
+Total distance: 181.913 km
+Total Emission : 2060.378 Tons CO2e
+Total duration: 144.88 minutes
+
+Optimized route order: 2024-04-11-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 191-87, Shengu Rd, Shengang Township, Changhua County, Taiwan 509, 86.339km, 1 hour 3 mins, Emission 1997.280087
+2: No. 191-87, Shengu Rd, Shengang Township, Changhua County, Taiwan 509 -> No. 37, Lane 923, Section 2, Zhongshan Rd, Dajia District, Taichung City, Taiwan 437, 37.731km, 33 mins, Emission 319.01560500000005
+3: No. 37, Lane 923, Section 2, Zhongshan Rd, Dajia District, Taichung City, Taiwan 437 -> No. 37, Lane 923, Section 2, Zhongshan Rd, Dajia District, Taichung City, Taiwan 437, 0.0km, 1 min, Emission 0.0
+4: No. 37, Lane 923, Section 2, Zhongshan Rd, Dajia District, Taichung City, Taiwan 437 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 118.656km, 1 hour 19 mins, Emission 0.0
+Total distance: 242.726 km
+Total Emission : 2316.296 Tons CO2e
+Total duration: 174.90 minutes
+
+Optimized route order: 2024-04-11-2
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 2097.07146
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 5-2號, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 3.029km, 6 mins, Emission 47.88546099999999
+4: No. 5-2號, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.761km, 4 mins, Emission 9.379086
+5: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.892km, 1 hour 2 mins, Emission 0.0
+Total distance: 183.780 km
+Total Emission : 2154.336 Tons CO2e
+Total duration: 137.35 minutes
+
+Optimized route order: 2024-04-12-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.703km, 1 hour 1 min, Emission 1877.409918
+2: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.274km, 2 mins, Emission 16.311022
+3: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246, 9.419km, 16 mins, Emission 44.062082000000004
+5: 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 81.368km, 57 mins, Emission 0.0
+Total distance: 177.764 km
+Total Emission : 1937.783 Tons CO2e
+Total duration: 137.12 minutes
+
+Optimized route order: 2024-04-15-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1916.63865
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 2.366km, 5 mins, Emission 35.932442
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 3.63km, 6 mins, Emission 53.28114
+4: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 85.423km, 1 hour 4 mins, Emission 0.0
+Total distance: 175.994 km
+Total Emission : 2005.852 Tons CO2e
+Total duration: 133.88 minutes
+
+Optimized route order: 2024-04-15-2
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 2113.7411979999997
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 2.080482
+3: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.386km, 4 mins, Emission 17.205446
+4: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 185.748 km
+Total Emission : 2133.027 Tons CO2e
+Total duration: 133.00 minutes
+
+Optimized route order: 2024-04-17-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1899.466569
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 4.165km, 8 mins, Emission 87.47333
+3: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 2.4km, 5 mins, Emission 15.1512
+6: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+7: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.138km, 1 hour 0 mins, Emission 0.0
+Total distance: 177.060 km
+Total Emission : 2002.091 Tons CO2e
+Total duration: 131.38 minutes
+
+Optimized route order: 2024-04-18-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246, 80.586km, 57 mins, Emission 1249.969446
+2: 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 8.673km, 13 mins, Emission 119.66138099999999
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.9km, 8 mins, Emission 9.406799999999999
+5: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.934km, 1 hour 2 mins, Emission 0.0
+Total distance: 180.093 km
+Total Emission : 1379.038 Tons CO2e
+Total duration: 140.03 minutes
+
+Optimized route order: 2024-04-18-2
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.703km, 1 hour 1 min, Emission 1827.445069
+2: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.805km, 8 mins, Emission 60.73541
+3: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.285km, 6 mins, Emission 14.194485
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.892km, 1 hour 2 mins, Emission 0.0
+Total distance: 179.685 km
+Total Emission : 1902.375 Tons CO2e
+Total duration: 137.07 minutes
+
+Optimized route order: 2024-04-19-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 13, Yonggong 1st Rd, Yong'an District, Kaohsiung City, Taiwan 828, 88.316km, 1 hour 3 mins, Emission 1999.2092920000002
+2: No. 13, Yonggong 1st Rd, Yong'an District, Kaohsiung City, Taiwan 828 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 7.727km, 15 mins, Emission 100.49736200000001
+3: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.929km, 6 mins, Emission 11.528544
+4: No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.382km, 1 hour 3 mins, Emission 0.0
+Total distance: 186.354 km
+Total Emission : 2111.235 Tons CO2e
+Total duration: 146.00 minutes
+
+Optimized route order: 2024-04-22-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 84.877km, 1 hour 4 mins, Emission 1894.200009
+2: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 3.63km, 6 mins, Emission 54.07248
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.77km, 3 mins, Emission 8.91726
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 4.224km, 7 mins, Emission 19.375488
+5: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 185.628 km
+Total Emission : 1976.565 Tons CO2e
+Total duration: 143.65 minutes
+
+Optimized route order: 2024-04-23-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1933.799868
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.752km, 8 mins, Emission 65.281048
+3: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.809km, 1 min, Emission 8.143394
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 5.15km, 10 mins, Emission 24.132900000000003
+5: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.914km, 1 hour 2 mins, Emission 0.0
+Total distance: 177.982 km
+Total Emission : 2031.357 Tons CO2e
+Total duration: 138.82 minutes
+
+Optimized route order: 2024-04-25-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1949.369175
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 135, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.916km, 2 mins, Emission 9.783796
+4: No. 135, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.952km, 5 mins, Emission 9.041976
+5: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 93.514km, 1 hour 7 mins, Emission 0.0
+Total distance: 181.957 km
+Total Emission : 1968.195 Tons CO2e
+Total duration: 132.47 minutes
+
+Optimized route order: 2024-04-26-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1907.649198
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 5.337km, 11 mins, Emission 95.895216
+3: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.151km, 5 mins, Emission 21.783177
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.325km, 1 min, Emission 1.6614
+5: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.62km, 7 mins, Emission 6.592020000000001
+6: No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.278km, 1 hour 2 mins, Emission 0.0
+Total distance: 180.068 km
+Total Emission : 2033.581 Tons CO2e
+Total duration: 142.73 minutes
+
+Optimized route order: 2024-04-29-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.409km, 1 hour 0 mins, Emission 1926.2291770000002
+2: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.9km, 8 mins, Emission 76.3932
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.89km, 6 mins, Emission 31.86225
+5: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+6: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.903km, 4 mins, Emission 6.873636
+7: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 179.060 km
+Total Emission : 2041.358 Tons CO2e
+Total duration: 141.38 minutes
+
+Optimized route order: 2024-04-30-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1376.621883
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 4.121km, 9 mins, Emission 48.87093900000001
+3: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 135之27號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.795km, 2 mins, Emission 6.88947
+4: No. 135之27號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.674km, 1 min, Emission 4.6195960000000005
+5: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.692km, 6 mins, Emission 21.875100000000003
+6: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+7: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 184.766 km
+Total Emission : 1458.877 Tons CO2e
+Total duration: 139.60 minutes
+
+Optimized route order: 2024-05-03-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.409km, 1 hour 0 mins, Emission 1925.6313140000002
+2: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.809km, 1 min, Emission 14.098443000000001
+3: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.309km, 7 mins, Emission 46.85544
+4: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.241km, 8 mins, Emission 40.662708
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 1.886km, 4 mins, Emission 10.348482
+6: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.914km, 1 hour 2 mins, Emission 0.0
+Total distance: 179.568 km
+Total Emission : 2037.596 Tons CO2e
+Total duration: 142.73 minutes
+
+Optimized route order: 2024-05-06-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 85.809km, 1 hour 1 min, Emission 1962.108594
+2: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 1.097km, 3 mins, Emission 24.497107
+3: No. 11, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.476km, 6 mins, Emission 52.623163999999996
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.171km, 7 mins, Emission 19.108446
+5: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.325km, 1 min, Emission 1.637675
+6: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.36km, 1 hour 2 mins, Emission 0.0
+Total distance: 181.238 km
+Total Emission : 2059.975 Tons CO2e
+Total duration: 139.27 minutes
+
+Optimized route order: 2024-05-07-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 83.132km, 1 hour 1 min, Emission 1860.7435560000001
+2: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.881km, 4 mins, Emission 27.189854999999998
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.095km, 4 mins, Emission 24.337615000000003
+4: No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.446km, 5 mins, Emission 14.838476
+5: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 181.681 km
+Total Emission : 1927.110 Tons CO2e
+Total duration: 137.40 minutes
+
+Optimized route order: 2024-05-08-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1916.1692549999998
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.752km, 8 mins, Emission 68.181344
+3: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.071km, 4 mins, Emission 33.461147000000004
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.397km, 3 mins, Emission 10.231628
+5: No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.278km, 1 hour 2 mins, Emission 0.0
+Total distance: 175.855 km
+Total Emission : 2028.043 Tons CO2e
+Total duration: 134.23 minutes
+
+Optimized route order: 2024-05-09-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1357.42875
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 1.351km, 3 mins, Emission 3.667965
+4: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.377km, 1 hour 3 mins, Emission 0.0
+Total distance: 173.303 km
+Total Emission : 1361.097 Tons CO2e
+Total duration: 125.02 minutes
+
+Optimized route order: 2024-05-10-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 86.158km, 1 hour 2 mins, Emission 1048.456702
+2: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.684km, 1 hour 3 mins, Emission 0.0
+Total distance: 173.842 km
+Total Emission : 1048.457 Tons CO2e
+Total duration: 124.28 minutes
+
+Optimized route order: 2024-05-14-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1916.0005409999999
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 35, Lane 80, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 4.34km, 9 mins, Emission 59.52744
+3: No. 35, Lane 80, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.018km, 4 mins, Emission 15.318637999999998
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 3.439km, 7 mins, Emission 10.409853000000002
+5: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.377km, 1 hour 3 mins, Emission 0.0
+Total distance: 181.531 km
+Total Emission : 2001.256 Tons CO2e
+Total duration: 140.58 minutes
+
+Optimized route order: 2024-05-15-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 84.171km, 1 hour 3 mins, Emission 1921.4555880000003
+2: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+4: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.77km, 3 mins, Emission 20.586869999999998
+5: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.108km, 5 mins, Emission 20.5003
+6: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.88km, 6 mins, Emission 19.97568
+7: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+8: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 182.056 km
+Total Emission : 1982.518 Tons CO2e
+Total duration: 140.37 minutes
+
+Optimized route order: 2024-05-17-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 35, Lane 80, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 90.072km, 1 hour 2 mins, Emission 2033.3754000000001
+2: No. 35, Lane 80, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.027km, 4 mins, Emission 42.135249
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 3.029km, 6 mins, Emission 54.379636999999995
+4: No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 27號, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820, 0.884km, 2 mins, Emission 7.67312
+5: No. 27號, Lane 85, Dabu 2nd St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.583km, 1 min, Emission 3.2455609999999995
+6: No. 21, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 3.458km, 7 mins, Emission 16.038204
+7: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 0.0km, 1 min, Emission 0.0
+8: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.914km, 1 hour 2 mins, Emission 0.0
+Total distance: 183.967 km
+Total Emission : 2156.847 Tons CO2e
+Total duration: 144.03 minutes
+
+Optimized route order: 2024-05-22-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1896.851502
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.752km, 8 mins, Emission 53.162088
+3: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.9km, 8 mins, Emission 35.6382
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.378km, 8 mins, Emission 19.981192
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 181.345 km
+Total Emission : 2005.633 Tons CO2e
+Total duration: 144.87 minutes
+
+Optimized route order: 2024-05-23-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1905.1184879999998
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.752km, 8 mins, Emission 61.941767999999996
+3: No. 36之15號, Jiaxing Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.809km, 1 min, Emission 10.330121000000002
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.316km, 8 mins, Emission 19.460844
+6: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 178.192 km
+Total Emission : 1996.851 Tons CO2e
+Total duration: 138.63 minutes
+
+Optimized route order: 2024-05-29-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 2093.203344
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.378km, 8 mins, Emission 41.989398
+4: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 181.434 km
+Total Emission : 2135.193 Tons CO2e
+Total duration: 137.37 minutes
+
+Optimized route order: 2024-05-30-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1761.711588
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.318km, 7 mins, Emission 55.267926
+3: No. 51, Lane 460, Chenggong Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.274km, 2 mins, Emission 16.502122
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.151km, 5 mins, Emission 24.882767999999995
+5: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+6: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.386km, 3 mins, Emission 8.293736
+7: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820, 4.756km, 9 mins, Emission 8.817624
+8: No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.278km, 1 hour 2 mins, Emission 0.0
+Total distance: 182.520 km
+Total Emission : 1875.476 Tons CO2e
+Total duration: 146.77 minutes
+
+Optimized route order: 2024-06-03-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1901.41515
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 4.004km, 7 mins, Emission 78.00993199999999
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.378km, 8 mins, Emission 45.075888
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 177.915 km
+Total Emission : 2024.501 Tons CO2e
+Total duration: 137.22 minutes
+
+Optimized route order: 2024-06-04-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.607km, 1 hour 1 min, Emission 1916.483909
+2: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.89km, 5 mins, Emission 42.772
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.171km, 7 mins, Emission 10.423077
+5: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.684km, 1 hour 3 mins, Emission 0.0
+Total distance: 179.352 km
+Total Emission : 1969.679 Tons CO2e
+Total duration: 135.28 minutes
+
+Optimized route order: 2024-06-06-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 84.171km, 1 hour 3 mins, Emission 1884.083664
+2: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 4.378km, 8 mins, Emission 53.175188
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.523km, 4 mins, Emission 11.641122000000001
+6: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 182.199 km
+Total Emission : 1948.900 Tons CO2e
+Total duration: 137.47 minutes
+
+Optimized route order: 2024-06-11-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 84.171km, 1 hour 3 mins, Emission 1924.8224280000002
+2: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.77km, 3 mins, Emission 32.060010000000005
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.422km, 6 mins, Emission 42.905036
+5: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> Unnamed Road, Alian District, Kaohsiung City, Taiwan 822, 4.732km, 9 mins, Emission 34.884304
+6: Unnamed Road, Alian District, Kaohsiung City, Taiwan 822 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 85.423km, 1 hour 4 mins, Emission 0.0
+Total distance: 179.518 km
+Total Emission : 2034.672 Tons CO2e
+Total duration: 145.20 minutes
+
+Optimized route order: 2024-06-12-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 84.575km, 58 mins, Emission 1888.3906000000002
+2: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 62-12號, Xingbei Ln, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 4.004km, 7 mins, Emission 54.850795999999995
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.523km, 4 mins, Emission 28.747062000000003
+5: No. 57, Dazhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 91.127km, 1 hour 3 mins, Emission 0.0
+Total distance: 182.229 km
+Total Emission : 1971.988 Tons CO2e
+Total duration: 132.85 minutes
+
+Optimized route order: 2024-06-17-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 85.809km, 1 hour 1 min, Emission 1902.471339
+2: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 1.168km, 3 mins, Emission 20.278816
+3: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.422km, 6 mins, Emission 46.83349200000001
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.496km, 7 mins, Emission 15.864848
+6: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.36km, 1 hour 2 mins, Emission 0.0
+Total distance: 181.255 km
+Total Emission : 1985.448 Tons CO2e
+Total duration: 139.42 minutes
+
+Optimized route order: 2024-06-19-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 85.809km, 1 hour 1 min, Emission 1945.118412
+2: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.439km, 7 mins, Emission 50.058084
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 1.4722020000000002
+4: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.241km, 8 mins, Emission 14.851981999999998
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 178.584 km
+Total Emission : 2011.501 Tons CO2e
+Total duration: 139.37 minutes
+
+Optimized route order: 2024-06-21-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820, 85.809km, 1 hour 1 min, Emission 1822.239924
+2: No. 500號, Xinzhong St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.439km, 7 mins, Emission 49.996182
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.378km, 8 mins, Emission 20.252628
+4: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 178.584 km
+Total Emission : 1892.489 Tons CO2e
+Total duration: 139.37 minutes
+
+Optimized route order: 2024-06-24-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 84.171km, 1 hour 3 mins, Emission 1904.7055590000002
+2: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 169.129 km
+Total Emission : 1904.706 Tons CO2e
+Total duration: 126.20 minutes
+
+Optimized route order: 2024-06-25-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 135之11號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.456km, 1 hour 1 min, Emission 1549.231824
+2: No. 135之11號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.372km, 6 mins, Emission 48.098208
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 93.651km, 1 hour 7 mins, Emission 0.0
+Total distance: 182.479 km
+Total Emission : 1597.330 Tons CO2e
+Total duration: 133.35 minutes
+
+Optimized route order: 2024-06-26-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 1955.148442
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.378km, 8 mins, Emission 22.100144
+3: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 181.434 km
+Total Emission : 1977.249 Tons CO2e
+Total duration: 137.37 minutes
+
+Optimized route order: 2024-06-27-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 2085.835504
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.378km, 8 mins, Emission 74.377842
+4: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.783km, 2 mins, Emission 10.182132
+5: No. 326, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 1.206km, 3 mins, Emission 12.121506
+6: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.914km, 1 hour 2 mins, Emission 0.0
+Total distance: 182.379 km
+Total Emission : 2182.517 Tons CO2e
+Total duration: 140.25 minutes
+
+Optimized route order: 2024-06-28-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1701.818118
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 6.358km, 13 mins, Emission 83.02912199999999
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.422km, 6 mins, Emission 31.739050000000002
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 1.77km, 4 mins, Emission 9.85713
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 180.865 km
+Total Emission : 1826.443 Tons CO2e
+Total duration: 143.98 minutes
+
+Optimized route order: 2024-07-01-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 37, Lane 923, Section 2, Zhongshan Rd, Dajia District, Taichung City, Taiwan 437, 119.089km, 1 hour 20 mins, Emission 2732.3780159999997
+2: No. 37, Lane 923, Section 2, Zhongshan Rd, Dajia District, Taichung City, Taiwan 437 -> No. 37, Lane 923, Section 2, Zhongshan Rd, Dajia District, Taichung City, Taiwan 437, 0.0km, 1 min, Emission 0.0
+3: No. 37, Lane 923, Section 2, Zhongshan Rd, Dajia District, Taichung City, Taiwan 437 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 118.656km, 1 hour 19 mins, Emission 0.0
+Total distance: 237.745 km
+Total Emission : 2732.378 Tons CO2e
+Total duration: 159.65 minutes
+
+Optimized route order: 2024-07-02-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246, 80.586km, 57 mins, Emission 1814.8773059999999
+2: 5之24號, 港後 Alian District, Kaohsiung City, Taiwan 82246 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 8.673km, 13 mins, Emission 171.23103899999998
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.171km, 7 mins, Emission 49.378811999999996
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.684km, 1 hour 3 mins, Emission 0.0
+Total distance: 180.114 km
+Total Emission : 2035.487 Tons CO2e
+Total duration: 139.92 minutes
+
+Optimized route order: 2024-07-04-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.607km, 1 hour 1 min, Emission 1949.5282109999998
+2: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.89km, 5 mins, Emission 44.190990000000006
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 4.378km, 8 mins, Emission 50.395158
+4: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 84.958km, 1 hour 3 mins, Emission 0.0
+Total distance: 177.833 km
+Total Emission : 2044.114 Tons CO2e
+Total duration: 137.25 minutes
+
+Optimized route order: 2024-07-05-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 86.158km, 1 hour 2 mins, Emission 1950.444804
+2: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.171km, 7 mins, Emission 69.00095999999999
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 66號, Lane 135, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 2.463km, 5 mins, Emission 3.514701
+4: No. 66號, Lane 135, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.808km, 1 hour 4 mins, Emission 0.0
+Total distance: 179.600 km
+Total Emission : 2022.960 Tons CO2e
+Total duration: 136.73 minutes
+
+Optimized route order: 2024-07-09-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.329km, 1 hour 0 mins, Emission 1157.91453
+2: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 3.422km, 6 mins, Emission 32.591128
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 93.651km, 1 hour 7 mins, Emission 0.0
+Total distance: 182.402 km
+Total Emission : 1190.506 Tons CO2e
+Total duration: 133.47 minutes
+
+Optimized route order: 2024-07-11-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 2090.8087960000003
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820, 3.029km, 6 mins, Emission 65.91104
+4: No. 5, Lane 39, Dabuer St, Gangshan District, Kaohsiung City, Taiwan 820 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 3.078km, 6 mins, Emission 52.27983
+5: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 820, Taiwan, Kaohsiung City, Alian District, 1-10號, 0.0km, 1 min, Emission 0.0
+6: 820, Taiwan, Kaohsiung City, Alian District, 1-10號 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 1.886km, 4 mins, Emission 7.113992
+7: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.914km, 1 hour 2 mins, Emission 0.0
+Total distance: 184.005 km
+Total Emission : 2216.114 Tons CO2e
+Total duration: 143.83 minutes
+
+Optimized route order: 2024-07-12-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 13, Yonggong 1st Rd, Yong'an District, Kaohsiung City, Taiwan 828, 88.316km, 1 hour 3 mins, Emission 1630.401676
+2: No. 13, Yonggong 1st Rd, Yong'an District, Kaohsiung City, Taiwan 828 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 10.243km, 19 mins, Emission 130.09634300000002
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.422km, 6 mins, Emission 28.71058
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.892km, 1 hour 2 mins, Emission 0.0
+Total distance: 188.873 km
+Total Emission : 1789.209 Tons CO2e
+Total duration: 150.65 minutes
+
+Optimized route order: 2024-07-17-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 2106.74175
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> 822, Taiwan, Kaohsiung City, Alian District, 2之35號, 6.721km, 11 mins, Emission 59.064148
+3: 822, Taiwan, Kaohsiung City, Alian District, 2之35號 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 83.914km, 1 hour 2 mins, Emission 0.0
+Total distance: 182.733 km
+Total Emission : 2165.806 Tons CO2e
+Total duration: 139.27 minutes
+
+Optimized route order: 2024-07-31-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820, 84.357km, 58 mins, Emission 1894.742577
+2: No. 97, Weisui W Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.841km, 8 mins, Emission 68.235365
+3: No. 11之61號, Xinzhuang Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820, 2.497km, 5 mins, Emission 24.193433
+4: No. 12, Lane 2, Jiafeng Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 86.892km, 1 hour 2 mins, Emission 0.0
+Total distance: 177.587 km
+Total Emission : 1987.171 Tons CO2e
+Total duration: 132.78 minutes
+
+Optimized route order: 2024-08-06-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 92.098km, 1 hour 6 mins, Emission 2099.2818119999997
+2: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 2.683282
+3: No. 56, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 0.137km, 1 min, Emission 1.870187
+4: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.171km, 7 mins, Emission 19.260654
+5: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.684km, 1 hour 3 mins, Emission 0.0
+Total distance: 183.227 km
+Total Emission : 2123.096 Tons CO2e
+Total duration: 135.80 minutes
+
+Optimized route order: 2024-08-09-1
+1: No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612 -> No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820, 85.607km, 1 hour 1 min, Emission 1942.080402
+2: No. 47之8號, Jiahua Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820, 2.89km, 5 mins, Emission 24.319350000000004
+3: No. 47號, Lane 39, Dabu 1st St, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 3.171km, 7 mins, Emission 14.472444
+4: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820, 0.0km, 1 min, Emission 0.0
+5: No. 2巷35號, Jiaxin E Rd, Gangshan District, Kaohsiung City, Taiwan 820 -> No. 87, Lane 105, Section 2, Beigang Rd, Taibao City, Chiayi County, Taiwan 612, 87.684km, 1 hour 3 mins, Emission 0.0
+Total distance: 179.352 km
+Total Emission : 1980.872 Tons CO2e
+Total duration: 135.28 minutes
