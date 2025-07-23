@@ -1,3 +1,2 @@
-2025/07/17-10:53:14.635 3ed4 Reusing MANIFEST C:\Users\wesley\Desktop\workboard\APP_DEVELOPER\chrome_data\Default\Sync Data\LevelDB/MANIFEST-000001
-2025/07/17-10:53:14.650 3ed4 Recovering log #3
-2025/07/17-10:53:14.651 3ed4 Reusing old log C:\Users\wesley\Desktop\workboard\APP_DEVELOPER\chrome_data\Default\Sync Data\LevelDB/000003.log 
+2025/07/23-11:36:26.997 1d3c Creating DB C:\Users\wesley\Desktop\workboard\APP_DEVELOPER\chrome_data\Default\Sync Data\LevelDB since it was missing.
+2025/07/23-11:36:27.045 1d3c Reusing MANIFEST C:\Users\wesley\Desktop\workboard\APP_DEVELOPER\chrome_data\Default\Sync Data\LevelDB/MANIFEST-000001

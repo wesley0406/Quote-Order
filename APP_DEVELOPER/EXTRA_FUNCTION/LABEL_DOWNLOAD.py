@@ -11,6 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
 sys.path.append(r"C:\Users\wesley\Desktop\workboard\APP_DEVELOPER")
 import TRACK_TOOL_V2 as TT 
+import json
 
 class ReyherAutomation:
     def __init__(self):
@@ -18,6 +19,10 @@ class ReyherAutomation:
         self.chrome_options = Options()
         self.chrome_options.add_argument('--start-maximized')
         self.chrome_options.add_argument('--disable-notifications')
+
+        # import the pass word adn user name 
+        with open(r"C:\Users\wesley\Desktop\API_KEYS.json") as f:
+            self.config = json.load(f)
         
         # Add unique user data directory
         user_data_dir = os.path.join(os.getcwd(), 'chrome_data')
@@ -55,15 +60,15 @@ class ReyherAutomation:
                 EC.presence_of_element_located((By.ID, "login-Partnernummer"))
             )
             partner_input.clear()
-            partner_input.send_keys("S708004")
+            partner_input.send_keys(self.config["C019_Partner_Number"])
             
             username_input = self.driver.find_element(By.ID, "login-username")
             username_input.clear()
-            username_input.send_keys("admin")
+            username_input.send_keys(self.config["C019_user_name"])
             
             password_input = self.driver.find_element(By.ID, "login-pass")
             password_input.clear()
-            password_input.send_keys("soon")
+            password_input.send_keys(self.config["C019_password"])
 
             login_button = self.driver.find_element(By.XPATH, "//button[contains(text(), 'Log in')]")
             login_button.click()
