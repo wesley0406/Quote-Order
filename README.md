@@ -1,8 +1,38 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey)
+
 # 📊 Automated Quote and Order Analysis Tool for ERP Systems
 
 This project is designed to **automate and visualize the quotation and order process** by integrating data from Excel, a local database, and an ERP system. It enables both engineers and non-technical users to efficiently track costs, prices, and profit history — all through a simple web interface accessible via desktop or mobile.
+## 📄 Module Overview
+
+| **Module**                    | **Description**                                                                                     |
+|------------------------------|-----------------------------------------------------------------------------------------------------|
+| [`TRACK_TOOL_V2.py`](https://github.com/wesley0406/Quote-Order/blob/main/APP_DEVELOPER/TRACK_TOOL_V2.py)             | Analyzes cost, price, and profit margins. Automatically compares current vs. historical quote data. |
+| [`VISULIZE_QUOTEV5.6.py`](https://github.com/wesley0406/Quote-Order/blob/main/APP_DEVELOPER/VISUALIZE_QUOTE_V5.6.py) | Builds a web interface to enable non-technical users to interact with the quote system.             |
+| [`ORDER_CENTER`](https://github.com/wesley0406/Quote-Order/tree/main/ORDER_CENTER)                  | Summarizes weekly orders and tracks performance by customer.                                        |
+| [`QUOTE_CENTER`](https://github.com/wesley0406/Quote-Order/tree/main/QUOTE_CENTER)                  | Automatically updates the database daily and reinitializes it if corrupted.                         |
+| [`label_downloader.py`](https://github.com/wesley0406/Quote-Order/blob/main/APP_DEVELOPER/EXTRA_FUNCTION/LABEL_DOWNLOAD.py)     | Automates label downloads using Selenium and validates LOT numbers to prevent errors.               |
+| [`volume_weight_calculator.py`](https://github.com/wesley0406/Quote-Order/blob/main/APP_DEVELOPER/EXTRA_FUNCTION/D092_VOLUMN_CHCECK.py) | Calculates total volume and weight for full-container shipments using ERP and packaging data.       |
+| [`Volume Project`](https://github.com/wesley0406/Quote-Order/tree/main/Volumn_Project)            | Uses neural networks to estimate the most suitable box type during the quotation process.           |
+| [`CARBON_TRACK_FUNC.py`](https://github.com/wesley0406/Quote-Order/blob/main/APP_DEVELOPER/EXTRA_FUNCTION/CARBON_TRACK_FUNC.py)   | Calculates CO₂ emissions during screw production using Google Maps API under CBAM regulations.      |
+| [`XX_EXPORT.py`](https://github.com/wesley0406/Quote-Order/blob/main/APP_DEVELOPER/EXTRA_FUNCTION)                  | Generates all required documents after order confirmation and ensures all departments are notified. |
+
 
 ---
+## 📚 Table of Contents
+
+- [📄 Module Overview](#module-overview)
+- [I.🔧 Features of the Website](#features-of-the-website)
+  - [🧠 Cost & Quote Analysis](#cost--quote-analysis)
+  - [📥 Excel-Based Input](#excel-based-input)
+  - [🔄 Auto-Update System](#auto-update-system)
+- [II.🏷️ Automated Label Download System](#automated-label-download-system)
+- [III.📦 Automated Volume & Weight Calculation System](#automated-volume--weight-calculation-system)
+- [🛠️ Tech Stack](#tech-stack)
+
+
 
 ##  I.🔧 Features of the Website
 
@@ -78,18 +108,19 @@ To avoid financial penalties, save shipping cost, and reduce manual labor, I cre
 --- 
 ## 🛠️ Tech Stack
 
-- **Python**: Core scripting and automation
-- **pandas**: Data manipulation and transformation
-- **cx_Oracle**: ERP database connection
-- **Dash / Flask**: Interactive web dashboard
-- **ngrok**: Remote access tunneling for web dashboard
-- **Excel**: User-friendly input/output format
+- **Python**: Core scripting and automation  
+- **pandas**: Data manipulation and transformation  
+- **cx_Oracle**: ERP database connection  
+- **Dash / Flask**: Interactive web dashboard  
+- **ngrok**: Remote access tunneling for web dashboard  
+- **Excel**: User-friendly input/output format for both input and reporting  
+- **Selenium**: Automates web portal interactions (e.g., downloading customer labels)  
+- **Google Maps API**: Calculates CO₂ emissions during production based on logistics routes (CBAM compliance)  
+- **Neural Network (TensorFlow )**: Predicts optimal box types for volume estimation during quoting  
+<p align="center">
+  <img src="https://github.com/wesley0406/Quote-Order/blob/main/Volumn_Project/model_architecture.png?raw=true" width="600">
+</p>
+
 
 ---
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/wesley0406/Quote-Order.git
-   cd Quote-Order
