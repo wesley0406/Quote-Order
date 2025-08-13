@@ -195,7 +195,7 @@ class PO_CODE_TRANSFER(CODE_TRANSFER):
 
 if __name__ == "__main__":
 	path = input("Enter folder path: ").strip()
-	print(123)
+	print(456)
 
 	#根據路徑判斷要啟動之功能
 	if "報價" in path:
